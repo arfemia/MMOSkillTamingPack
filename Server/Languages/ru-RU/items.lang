@@ -1,0 +1,38 @@
+XpToken_Taming_Fragment.name = Фрагмент XP приручения
+XpToken_Taming_Fragment.description = Употребите, чтобы получить крошечное количество XP приручения.
+
+XpToken_Taming_Shard.name = Осколок XP приручения
+XpToken_Taming_Shard.description = Употребите, чтобы получить небольшое количество XP приручения.
+
+XpToken_Taming_Piece.name = Кусок XP приручения
+XpToken_Taming_Piece.description = Употребите, чтобы получить умеренное количество XP приручения.
+
+XpToken_Taming_Token.name = Жетон XP приручения
+XpToken_Taming_Token.description = Употребите, чтобы получить приличное количество XP приручения.
+
+XpToken_Taming_Tome.name = Том XP приручения
+XpToken_Taming_Tome.description = Употребите, чтобы получить большое количество XP приручения.
+
+XpToken_Taming_Grand_Tome.name = Большой том XP приручения
+XpToken_Taming_Grand_Tome.description = Употребите, чтобы получить щедрое количество XP приручения.
+
+XpToken_Taming_Relic.name = Реликвия XP приручения
+XpToken_Taming_Relic.description = Употребите, чтобы получить огромное количество XP приручения.
+
+XpToken_Taming_Artifact.name = Артефакт XP приручения
+XpToken_Taming_Artifact.description = Употребите, чтобы получить колоссальное количество XP приручения.
+
+BoostToken_Taming_Personal_Minor.name = Малое усиление XP приручения
+BoostToken_Taming_Personal_Minor.description = Употребите, чтобы активировать усиление XP приручения.
+
+BoostToken_Taming_Personal_Standard.name = Стандартное усиление XP приручения
+BoostToken_Taming_Personal_Standard.description = Употребите, чтобы активировать усиление XP приручения.
+
+BoostToken_Taming_Personal_Major.name = Большое усиление XP приручения
+BoostToken_Taming_Personal_Major.description = Употребите, чтобы активировать усиление XP приручения.
+
+BoostToken_Taming_Personal_Grand.name = Великое усиление XP приручения
+BoostToken_Taming_Personal_Grand.description = Употребите, чтобы активировать усиление XP приручения.
+
+BoostToken_Taming_Personal_Epic.name = Эпическое усиление XP приручения
+BoostToken_Taming_Personal_Epic.description = Употребите, чтобы активировать усиление XP приручения.

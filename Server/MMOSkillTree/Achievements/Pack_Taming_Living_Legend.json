@@ -1,0 +1,29 @@
+{
+  "Name": "Pack_Taming_Living_Legend",
+  "Payload": {
+    "id": "pack_taming_living_legend",
+    "displayName": "Living Legend",
+    "description": "Breed 25,000 companions. A dynasty without equal.",
+    "category": "misc",
+    "subcategory": "taming",
+    "requiresFeatures": ["taming"],
+    "sortOrder": 24,
+    "points": 150,
+    "hidden": true,
+    "triggerType": "BREED_ANIMAL",
+    "target": "",
+    "requiredAmount": 25000,
+    "matchMode": "CONTAINS",
+    "chainId": "taming_breeder",
+    "tier": 5,
+    "manualClaimRewards": [
+      {
+        "type": "BOOST_TOKEN",
+        "skill": "TAMING",
+        "multiplier": 3.0,
+        "durationMinutes": 180,
+        "displayName": "3x Taming Boost (180m)"
+      }
+    ]
+  }
+}

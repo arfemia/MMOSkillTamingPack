@@ -1,0 +1,38 @@
+XpToken_Taming_Fragment.name = Fragmento de XP de Doma
+XpToken_Taming_Fragment.description = Consúmelo para ganar una cantidad ínfima de XP de Doma.
+
+XpToken_Taming_Shard.name = Esquirla de XP de Doma
+XpToken_Taming_Shard.description = Consúmelo para ganar una cantidad pequeña de XP de Doma.
+
+XpToken_Taming_Piece.name = Pieza de XP de Doma
+XpToken_Taming_Piece.description = Consúmelo para ganar una cantidad moderada de XP de Doma.
+
+XpToken_Taming_Token.name = Ficha de XP de Doma
+XpToken_Taming_Token.description = Consúmelo para ganar una cantidad considerable de XP de Doma.
+
+XpToken_Taming_Tome.name = Tomo de XP de Doma
+XpToken_Taming_Tome.description = Consúmelo para ganar una gran cantidad de XP de Doma.
+
+XpToken_Taming_Grand_Tome.name = Gran Tomo de XP de Doma
+XpToken_Taming_Grand_Tome.description = Consúmelo para ganar una cantidad generosa de XP de Doma.
+
+XpToken_Taming_Relic.name = Reliquia de XP de Doma
+XpToken_Taming_Relic.description = Consúmelo para ganar una cantidad enorme de XP de Doma.
+
+XpToken_Taming_Artifact.name = Artefacto de XP de Doma
+XpToken_Taming_Artifact.description = Consúmelo para ganar una cantidad inmensa de XP de Doma.
+
+BoostToken_Taming_Personal_Minor.name = Impulso menor de XP de Doma
+BoostToken_Taming_Personal_Minor.description = Consúmelo para activar un impulso de XP de Doma.
+
+BoostToken_Taming_Personal_Standard.name = Impulso estándar de XP de Doma
+BoostToken_Taming_Personal_Standard.description = Consúmelo para activar un impulso de XP de Doma.
+
+BoostToken_Taming_Personal_Major.name = Impulso mayor de XP de Doma
+BoostToken_Taming_Personal_Major.description = Consúmelo para activar un impulso de XP de Doma.
+
+BoostToken_Taming_Personal_Grand.name = Gran impulso de XP de Doma
+BoostToken_Taming_Personal_Grand.description = Consúmelo para activar un impulso de XP de Doma.
+
+BoostToken_Taming_Personal_Epic.name = Impulso épico de XP de Doma
+BoostToken_Taming_Personal_Epic.description = Consúmelo para activar un impulso de XP de Doma.

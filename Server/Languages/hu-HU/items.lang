@@ -1,0 +1,38 @@
+XpToken_Taming_Fragment.name = Szelídítési XP-töredék
+XpToken_Taming_Fragment.description = Fogyaszd el, hogy apró mennyiségű szelídítési XP-t szerezz.
+
+XpToken_Taming_Shard.name = Szelídítési XP-szilánk
+XpToken_Taming_Shard.description = Fogyaszd el, hogy kis mennyiségű szelídítési XP-t szerezz.
+
+XpToken_Taming_Piece.name = Szelídítési XP-darab
+XpToken_Taming_Piece.description = Fogyaszd el, hogy mérsékelt mennyiségű szelídítési XP-t szerezz.
+
+XpToken_Taming_Token.name = Szelídítési XP-zseton
+XpToken_Taming_Token.description = Fogyaszd el, hogy tisztességes mennyiségű szelídítési XP-t szerezz.
+
+XpToken_Taming_Tome.name = Szelídítési XP-kötet
+XpToken_Taming_Tome.description = Fogyaszd el, hogy nagy mennyiségű szelídítési XP-t szerezz.
+
+XpToken_Taming_Grand_Tome.name = Nagy szelídítési XP-kötet
+XpToken_Taming_Grand_Tome.description = Fogyaszd el, hogy bőséges mennyiségű szelídítési XP-t szerezz.
+
+XpToken_Taming_Relic.name = Szelídítési XP-ereklye
+XpToken_Taming_Relic.description = Fogyaszd el, hogy hatalmas mennyiségű szelídítési XP-t szerezz.
+
+XpToken_Taming_Artifact.name = Szelídítési XP-műtárgy
+XpToken_Taming_Artifact.description = Fogyaszd el, hogy óriási mennyiségű szelídítési XP-t szerezz.
+
+BoostToken_Taming_Personal_Minor.name = Kis szelídítési XP-növelő
+BoostToken_Taming_Personal_Minor.description = Fogyaszd el egy szelídítési XP-növelő aktiválásához.
+
+BoostToken_Taming_Personal_Standard.name = Normál szelídítési XP-növelő
+BoostToken_Taming_Personal_Standard.description = Fogyaszd el egy szelídítési XP-növelő aktiválásához.
+
+BoostToken_Taming_Personal_Major.name = Nagy szelídítési XP-növelő
+BoostToken_Taming_Personal_Major.description = Fogyaszd el egy szelídítési XP-növelő aktiválásához.
+
+BoostToken_Taming_Personal_Grand.name = Hatalmas szelídítési XP-növelő
+BoostToken_Taming_Personal_Grand.description = Fogyaszd el egy szelídítési XP-növelő aktiválásához.
+
+BoostToken_Taming_Personal_Epic.name = Epikus szelídítési XP-növelő
+BoostToken_Taming_Personal_Epic.description = Fogyaszd el egy szelídítési XP-növelő aktiválásához.

@@ -1,0 +1,34 @@
+{
+  "TranslationProperties": {
+    "Name": "items.XpToken_Taming_Fragment.name",
+    "Description": "items.XpToken_Taming_Fragment.description"
+  },
+  "Quality": "Common",
+  "Icon": "Icons/ItemsGenerated/Potion_Small.png",
+  "Model": "Items/Consumables/XpTokens/Potion_Small.blockymodel",
+  "Texture": "Items/Consumables/XpTokens/Green.png",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "Charging",
+          "FailOnDamage": true,
+          "HorizontalSpeedMultiplier": 0.5,
+          "Next": {
+            "1.0": {
+              "Type": "mmo_xp_token_consume"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Consumable"
+    ],
+    "Family": [
+      "XpToken"
+    ]
+  }
+}

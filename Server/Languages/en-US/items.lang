@@ -1,0 +1,38 @@
+XpToken_Taming_Fragment.name = Taming XP Fragment
+XpToken_Taming_Fragment.description = Consume to gain a tiny amount of Taming XP.
+
+XpToken_Taming_Shard.name = Taming XP Shard
+XpToken_Taming_Shard.description = Consume to gain a small amount of Taming XP.
+
+XpToken_Taming_Piece.name = Taming XP Piece
+XpToken_Taming_Piece.description = Consume to gain a moderate amount of Taming XP.
+
+XpToken_Taming_Token.name = Taming XP Token
+XpToken_Taming_Token.description = Consume to gain a decent amount of Taming XP.
+
+XpToken_Taming_Tome.name = Taming XP Tome
+XpToken_Taming_Tome.description = Consume to gain a large amount of Taming XP.
+
+XpToken_Taming_Grand_Tome.name = Taming XP Grand Tome
+XpToken_Taming_Grand_Tome.description = Consume to gain a generous amount of Taming XP.
+
+XpToken_Taming_Relic.name = Taming XP Relic
+XpToken_Taming_Relic.description = Consume to gain a massive amount of Taming XP.
+
+XpToken_Taming_Artifact.name = Taming XP Artifact
+XpToken_Taming_Artifact.description = Consume to gain an enormous amount of Taming XP.
+
+BoostToken_Taming_Personal_Minor.name = Minor Taming XP Boost
+BoostToken_Taming_Personal_Minor.description = Consume to activate a Taming XP boost.
+
+BoostToken_Taming_Personal_Standard.name = Standard Taming XP Boost
+BoostToken_Taming_Personal_Standard.description = Consume to activate a Taming XP boost.
+
+BoostToken_Taming_Personal_Major.name = Major Taming XP Boost
+BoostToken_Taming_Personal_Major.description = Consume to activate a Taming XP boost.
+
+BoostToken_Taming_Personal_Grand.name = Grand Taming XP Boost
+BoostToken_Taming_Personal_Grand.description = Consume to activate a Taming XP boost.
+
+BoostToken_Taming_Personal_Epic.name = Epic Taming XP Boost
+BoostToken_Taming_Personal_Epic.description = Consume to activate a Taming XP boost.

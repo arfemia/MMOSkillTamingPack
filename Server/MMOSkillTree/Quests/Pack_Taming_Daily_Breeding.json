@@ -1,0 +1,34 @@
+{
+  "Name": "Pack_Taming_Daily_Breeding",
+  "Payload": {
+    "id": "pack_taming_daily_breeding",
+    "displayName": "Daily: Raise the Brood",
+    "description": "Breed 5 companions. Available again 24 hours after each completion.",
+    "category": "main",
+    "requiresFeatures": ["taming"],
+    "sortOrder": 40,
+    "autoAccept": false,
+    "repeatable": true,
+    "cooldownSeconds": 86400,
+    "autoClaimRewards": false,
+    "tags": ["Taming", "Daily"],
+    "objectives": [
+      {
+        "id": "breed_5",
+        "type": "BREED_ANIMAL",
+        "target": "",
+        "amount": 5,
+        "displayText": "Breed 5 companions",
+        "matchMode": "CONTAINS"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "XP",
+        "skill": "TAMING",
+        "amount": 2500,
+        "displayName": "+2,500 Taming XP"
+      }
+    ]
+  }
+}

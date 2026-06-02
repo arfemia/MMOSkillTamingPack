@@ -1,0 +1,28 @@
+{
+  "Name": "Pack_Taming_Grandmaster",
+  "Payload": {
+    "id": "pack_taming_grandmaster",
+    "displayName": "Grandmaster Tamer",
+    "description": "Reach Taming level 100. The peak of the bond between tamer and beast.",
+    "category": "misc",
+    "subcategory": "taming",
+    "requiresFeatures": ["taming"],
+    "sortOrder": 13,
+    "points": 100,
+    "triggerType": "REACH_LEVEL",
+    "target": "TAMING",
+    "requiredAmount": 100,
+    "matchMode": "EXACT",
+    "chainId": "taming_tamer",
+    "tier": 4,
+    "manualClaimRewards": [
+      {
+        "type": "BOOST_TOKEN",
+        "skill": "TAMING",
+        "multiplier": 3.0,
+        "durationMinutes": 120,
+        "displayName": "3x Taming Boost (120m)"
+      }
+    ]
+  }
+}

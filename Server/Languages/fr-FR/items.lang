@@ -1,0 +1,38 @@
+XpToken_Taming_Fragment.name = Fragment d'XP d'Apprivoisement
+XpToken_Taming_Fragment.description = À consommer pour gagner une infime quantité d'XP d'Apprivoisement.
+
+XpToken_Taming_Shard.name = Éclat d'XP d'Apprivoisement
+XpToken_Taming_Shard.description = À consommer pour gagner une petite quantité d'XP d'Apprivoisement.
+
+XpToken_Taming_Piece.name = Morceau d'XP d'Apprivoisement
+XpToken_Taming_Piece.description = À consommer pour gagner une quantité modérée d'XP d'Apprivoisement.
+
+XpToken_Taming_Token.name = Jeton d'XP d'Apprivoisement
+XpToken_Taming_Token.description = À consommer pour gagner une quantité correcte d'XP d'Apprivoisement.
+
+XpToken_Taming_Tome.name = Tome d'XP d'Apprivoisement
+XpToken_Taming_Tome.description = À consommer pour gagner une grande quantité d'XP d'Apprivoisement.
+
+XpToken_Taming_Grand_Tome.name = Grand Tome d'XP d'Apprivoisement
+XpToken_Taming_Grand_Tome.description = À consommer pour gagner une généreuse quantité d'XP d'Apprivoisement.
+
+XpToken_Taming_Relic.name = Relique d'XP d'Apprivoisement
+XpToken_Taming_Relic.description = À consommer pour gagner une quantité massive d'XP d'Apprivoisement.
+
+XpToken_Taming_Artifact.name = Artefact d'XP d'Apprivoisement
+XpToken_Taming_Artifact.description = À consommer pour gagner une énorme quantité d'XP d'Apprivoisement.
+
+BoostToken_Taming_Personal_Minor.name = Boost mineur d'XP d'Apprivoisement
+BoostToken_Taming_Personal_Minor.description = À consommer pour activer un boost d'XP d'Apprivoisement.
+
+BoostToken_Taming_Personal_Standard.name = Boost standard d'XP d'Apprivoisement
+BoostToken_Taming_Personal_Standard.description = À consommer pour activer un boost d'XP d'Apprivoisement.
+
+BoostToken_Taming_Personal_Major.name = Boost majeur d'XP d'Apprivoisement
+BoostToken_Taming_Personal_Major.description = À consommer pour activer un boost d'XP d'Apprivoisement.
+
+BoostToken_Taming_Personal_Grand.name = Grand boost d'XP d'Apprivoisement
+BoostToken_Taming_Personal_Grand.description = À consommer pour activer un boost d'XP d'Apprivoisement.
+
+BoostToken_Taming_Personal_Epic.name = Boost épique d'XP d'Apprivoisement
+BoostToken_Taming_Personal_Epic.description = À consommer pour activer un boost d'XP d'Apprivoisement.

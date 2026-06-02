@@ -1,0 +1,31 @@
+{
+  "Name": "MMOSkillTamingPack",
+  "Payload": {
+    "TAMING": {
+      "15": [
+        {
+          "command": "/mmoboost give {player}|TAMING|1.5|30",
+          "displayName": "1.5x Taming Boost (30m)",
+          "color": "#7ec8e3",
+          "autoClaim": true
+        }
+      ],
+      "50": [
+        {
+          "command": "/mmoboost give {player}|TAMING|2|45",
+          "displayName": "2x Taming Boost (45m)",
+          "color": "#7ec8e3",
+          "autoClaim": true
+        }
+      ],
+      "100": [
+        {
+          "command": "/mmoboost give {player}|all|2|60",
+          "displayName": "2x All-Skill Boost (60m)",
+          "color": "#ffd700",
+          "autoClaim": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "Pack_Taming_Warbeast_Trainer",
+  "Payload": {
+    "id": "pack_taming_warbeast_trainer",
+    "displayName": "Warbeast Trainer",
+    "description": "Have your companions strike enemies 1,000 times.",
+    "category": "misc",
+    "subcategory": "taming",
+    "requiresFeatures": ["taming"],
+    "sortOrder": 61,
+    "points": 25,
+    "triggerType": "COMPANION_COMBAT",
+    "target": "",
+    "requiredAmount": 1000,
+    "matchMode": "CONTAINS",
+    "chainId": "taming_warbeasts",
+    "tier": 2
+  }
+}

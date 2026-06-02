@@ -1,0 +1,38 @@
+XpToken_Taming_Fragment.name = Fragmento de XP de Domesticação
+XpToken_Taming_Fragment.description = Consuma para ganhar uma quantidade ínfima de XP de Domesticação.
+
+XpToken_Taming_Shard.name = Estilhaço de XP de Domesticação
+XpToken_Taming_Shard.description = Consuma para ganhar uma pequena quantidade de XP de Domesticação.
+
+XpToken_Taming_Piece.name = Pedaço de XP de Domesticação
+XpToken_Taming_Piece.description = Consuma para ganhar uma quantidade moderada de XP de Domesticação.
+
+XpToken_Taming_Token.name = Ficha de XP de Domesticação
+XpToken_Taming_Token.description = Consuma para ganhar uma quantidade razoável de XP de Domesticação.
+
+XpToken_Taming_Tome.name = Tomo de XP de Domesticação
+XpToken_Taming_Tome.description = Consuma para ganhar uma grande quantidade de XP de Domesticação.
+
+XpToken_Taming_Grand_Tome.name = Grande Tomo de XP de Domesticação
+XpToken_Taming_Grand_Tome.description = Consuma para ganhar uma quantidade generosa de XP de Domesticação.
+
+XpToken_Taming_Relic.name = Relíquia de XP de Domesticação
+XpToken_Taming_Relic.description = Consuma para ganhar uma quantidade enorme de XP de Domesticação.
+
+XpToken_Taming_Artifact.name = Artefato de XP de Domesticação
+XpToken_Taming_Artifact.description = Consuma para ganhar uma quantidade imensa de XP de Domesticação.
+
+BoostToken_Taming_Personal_Minor.name = Impulso menor de XP de Domesticação
+BoostToken_Taming_Personal_Minor.description = Consuma para ativar um impulso de XP de Domesticação.
+
+BoostToken_Taming_Personal_Standard.name = Impulso padrão de XP de Domesticação
+BoostToken_Taming_Personal_Standard.description = Consuma para ativar um impulso de XP de Domesticação.
+
+BoostToken_Taming_Personal_Major.name = Impulso maior de XP de Domesticação
+BoostToken_Taming_Personal_Major.description = Consuma para ativar um impulso de XP de Domesticação.
+
+BoostToken_Taming_Personal_Grand.name = Grande impulso de XP de Domesticação
+BoostToken_Taming_Personal_Grand.description = Consuma para ativar um impulso de XP de Domesticação.
+
+BoostToken_Taming_Personal_Epic.name = Impulso épico de XP de Domesticação
+BoostToken_Taming_Personal_Epic.description = Consuma para ativar um impulso de XP de Domesticação.

@@ -1,0 +1,29 @@
+{
+  "Name": "Pack_Taming_Tamer_III",
+  "Payload": {
+    "id": "pack_taming_tamer_iii",
+    "displayName": "Tamer III",
+    "description": "Reach Taming level 80. Claim a hefty Taming XP reward for your dedication.",
+    "category": "misc",
+    "subcategory": "taming",
+    "requiresFeatures": [
+      "taming"
+    ],
+    "sortOrder": 12,
+    "points": 50,
+    "triggerType": "REACH_LEVEL",
+    "target": "TAMING",
+    "requiredAmount": 80,
+    "matchMode": "EXACT",
+    "chainId": "taming_tamer",
+    "tier": 3,
+    "manualClaimRewards": [
+      {
+        "type": "XP",
+        "skill": "TAMING",
+        "amount": 250000,
+        "displayName": "+250,000 Taming XP"
+      }
+    ]
+  }
+}

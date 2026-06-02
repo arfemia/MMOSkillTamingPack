@@ -1,0 +1,38 @@
+XpToken_Taming_Fragment.name = Zähmungs-XP-Fragment
+XpToken_Taming_Fragment.description = Verbrauchen, um eine winzige Menge Zähmungs-XP zu erhalten.
+
+XpToken_Taming_Shard.name = Zähmungs-XP-Splitter
+XpToken_Taming_Shard.description = Verbrauchen, um eine kleine Menge Zähmungs-XP zu erhalten.
+
+XpToken_Taming_Piece.name = Zähmungs-XP-Stück
+XpToken_Taming_Piece.description = Verbrauchen, um eine mäßige Menge Zähmungs-XP zu erhalten.
+
+XpToken_Taming_Token.name = Zähmungs-XP-Marke
+XpToken_Taming_Token.description = Verbrauchen, um eine ordentliche Menge Zähmungs-XP zu erhalten.
+
+XpToken_Taming_Tome.name = Zähmungs-XP-Foliant
+XpToken_Taming_Tome.description = Verbrauchen, um eine große Menge Zähmungs-XP zu erhalten.
+
+XpToken_Taming_Grand_Tome.name = Großer Zähmungs-XP-Foliant
+XpToken_Taming_Grand_Tome.description = Verbrauchen, um eine großzügige Menge Zähmungs-XP zu erhalten.
+
+XpToken_Taming_Relic.name = Zähmungs-XP-Relikt
+XpToken_Taming_Relic.description = Verbrauchen, um eine massive Menge Zähmungs-XP zu erhalten.
+
+XpToken_Taming_Artifact.name = Zähmungs-XP-Artefakt
+XpToken_Taming_Artifact.description = Verbrauchen, um eine enorme Menge Zähmungs-XP zu erhalten.
+
+BoostToken_Taming_Personal_Minor.name = Geringer Zähmungs-XP-Boost
+BoostToken_Taming_Personal_Minor.description = Verbrauchen, um einen Zähmungs-XP-Boost zu aktivieren.
+
+BoostToken_Taming_Personal_Standard.name = Standard-Zähmungs-XP-Boost
+BoostToken_Taming_Personal_Standard.description = Verbrauchen, um einen Zähmungs-XP-Boost zu aktivieren.
+
+BoostToken_Taming_Personal_Major.name = Großer Zähmungs-XP-Boost
+BoostToken_Taming_Personal_Major.description = Verbrauchen, um einen Zähmungs-XP-Boost zu aktivieren.
+
+BoostToken_Taming_Personal_Grand.name = Großartiger Zähmungs-XP-Boost
+BoostToken_Taming_Personal_Grand.description = Verbrauchen, um einen Zähmungs-XP-Boost zu aktivieren.
+
+BoostToken_Taming_Personal_Epic.name = Epischer Zähmungs-XP-Boost
+BoostToken_Taming_Personal_Epic.description = Verbrauchen, um einen Zähmungs-XP-Boost zu aktivieren.

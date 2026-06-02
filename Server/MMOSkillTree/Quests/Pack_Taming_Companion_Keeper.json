@@ -1,0 +1,37 @@
+{
+  "Name": "Pack_Taming_Companion_Keeper",
+  "Payload": {
+    "id": "pack_taming_companion_keeper",
+    "displayName": "Companion Keeper",
+    "description": "Your menagerie grows. Reach Taming level 25 to prove you can keep a healthy, thriving group of companions.",
+    "category": "main",
+    "requiresFeatures": [
+      "taming"
+    ],
+    "sortOrder": 20,
+    "autoAccept": false,
+    "autoClaimRewards": false,
+    "tags": [
+      "Taming",
+      "Companions"
+    ],
+    "objectives": [
+      {
+        "id": "reach_taming_25",
+        "type": "REACH_LEVEL",
+        "target": "TAMING",
+        "amount": 25,
+        "displayText": "Reach Taming level 25",
+        "matchMode": "EXACT"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "XP",
+        "skill": "TAMING",
+        "amount": 15000,
+        "displayName": "+15,000 Taming XP"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Name": "Pack_Taming_First_Bond",
+  "Payload": {
+    "id": "pack_taming_first_bond",
+    "displayName": "First Bond",
+    "description": "Earn the trust of your first companion. Reach Taming level 5 by feeding, breeding, and caring for tamed creatures.",
+    "category": "main",
+    "requiresFeatures": ["taming"],
+    "sortOrder": 10,
+    "autoAccept": false,
+    "autoClaimRewards": false,
+    "tags": [
+      "Taming",
+      "Companions"
+    ],
+    "objectives": [
+      {
+        "id": "reach_taming_5",
+        "type": "REACH_LEVEL",
+        "target": "TAMING",
+        "amount": 5,
+        "displayText": "Reach Taming level 5",
+        "matchMode": "EXACT"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "XP",
+        "skill": "TAMING",
+        "amount": 2000,
+        "displayName": "+2,000 Taming XP"
+      }
+    ]
+  }
+}

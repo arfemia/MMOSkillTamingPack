@@ -1,0 +1,38 @@
+XpToken_Taming_Fragment.name = Frammento di XP di Addestramento
+XpToken_Taming_Fragment.description = Consuma per ottenere una quantità minima di XP di Addestramento.
+
+XpToken_Taming_Shard.name = Scheggia di XP di Addestramento
+XpToken_Taming_Shard.description = Consuma per ottenere una piccola quantità di XP di Addestramento.
+
+XpToken_Taming_Piece.name = Pezzo di XP di Addestramento
+XpToken_Taming_Piece.description = Consuma per ottenere una quantità moderata di XP di Addestramento.
+
+XpToken_Taming_Token.name = Gettone di XP di Addestramento
+XpToken_Taming_Token.description = Consuma per ottenere una quantità discreta di XP di Addestramento.
+
+XpToken_Taming_Tome.name = Tomo di XP di Addestramento
+XpToken_Taming_Tome.description = Consuma per ottenere una grande quantità di XP di Addestramento.
+
+XpToken_Taming_Grand_Tome.name = Gran Tomo di XP di Addestramento
+XpToken_Taming_Grand_Tome.description = Consuma per ottenere una quantità generosa di XP di Addestramento.
+
+XpToken_Taming_Relic.name = Reliquia di XP di Addestramento
+XpToken_Taming_Relic.description = Consuma per ottenere una quantità enorme di XP di Addestramento.
+
+XpToken_Taming_Artifact.name = Artefatto di XP di Addestramento
+XpToken_Taming_Artifact.description = Consuma per ottenere una quantità immensa di XP di Addestramento.
+
+BoostToken_Taming_Personal_Minor.name = Potenziamento minore di XP di Addestramento
+BoostToken_Taming_Personal_Minor.description = Consuma per attivare un potenziamento di XP di Addestramento.
+
+BoostToken_Taming_Personal_Standard.name = Potenziamento standard di XP di Addestramento
+BoostToken_Taming_Personal_Standard.description = Consuma per attivare un potenziamento di XP di Addestramento.
+
+BoostToken_Taming_Personal_Major.name = Potenziamento maggiore di XP di Addestramento
+BoostToken_Taming_Personal_Major.description = Consuma per attivare un potenziamento di XP di Addestramento.
+
+BoostToken_Taming_Personal_Grand.name = Gran potenziamento di XP di Addestramento
+BoostToken_Taming_Personal_Grand.description = Consuma per attivare un potenziamento di XP di Addestramento.
+
+BoostToken_Taming_Personal_Epic.name = Potenziamento epico di XP di Addestramento
+BoostToken_Taming_Personal_Epic.description = Consuma per attivare un potenziamento di XP di Addestramento.

@@ -1,0 +1,17 @@
+{
+  "Name": "Pack_Taming_Bloodline",
+  "Payload": {
+    "id": "pack_taming_bloodline",
+    "displayName": "Bloodline",
+    "description": "Earn 1,000,000 Taming XP through feeding, harvesting, breeding, and companion combat.",
+    "category": "misc",
+    "subcategory": "taming",
+    "requiresFeatures": ["taming"],
+    "sortOrder": 30,
+    "points": 50,
+    "triggerType": "GAIN_XP",
+    "target": "TAMING",
+    "requiredAmount": 1000000,
+    "matchMode": "EXACT"
+  }
+}

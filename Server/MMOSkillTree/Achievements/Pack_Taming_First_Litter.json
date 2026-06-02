@@ -1,0 +1,19 @@
+{
+  "Name": "Pack_Taming_First_Litter",
+  "Payload": {
+    "id": "pack_taming_first_litter",
+    "displayName": "First Litter",
+    "description": "Breed your first companion.",
+    "category": "misc",
+    "subcategory": "taming",
+    "requiresFeatures": ["taming"],
+    "sortOrder": 20,
+    "points": 5,
+    "triggerType": "BREED_ANIMAL",
+    "target": "",
+    "requiredAmount": 1,
+    "matchMode": "CONTAINS",
+    "chainId": "taming_breeder",
+    "tier": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "Pack_Taming_Breeder",
+  "Payload": {
+    "id": "pack_taming_breeder",
+    "displayName": "Breeder",
+    "description": "Breed 100 companions.",
+    "category": "misc",
+    "subcategory": "taming",
+    "requiresFeatures": ["taming"],
+    "sortOrder": 21,
+    "points": 15,
+    "triggerType": "BREED_ANIMAL",
+    "target": "",
+    "requiredAmount": 100,
+    "matchMode": "CONTAINS",
+    "chainId": "taming_breeder",
+    "tier": 2
+  }
+}

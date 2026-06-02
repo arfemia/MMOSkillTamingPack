@@ -1,0 +1,27 @@
+{
+  "Name": "Pack_Taming_Master_Breeder",
+  "Payload": {
+    "id": "pack_taming_master_breeder",
+    "displayName": "Master Breeder",
+    "description": "Breed 10,000 companions.",
+    "category": "misc",
+    "subcategory": "taming",
+    "requiresFeatures": ["taming"],
+    "sortOrder": 23,
+    "points": 75,
+    "triggerType": "BREED_ANIMAL",
+    "target": "",
+    "requiredAmount": 10000,
+    "matchMode": "CONTAINS",
+    "chainId": "taming_breeder",
+    "tier": 4,
+    "manualClaimRewards": [
+      {
+        "type": "XP",
+        "skill": "TAMING",
+        "amount": 200000,
+        "displayName": "+200,000 Taming XP"
+      }
+    ]
+  }
+}

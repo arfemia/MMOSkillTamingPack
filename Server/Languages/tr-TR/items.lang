@@ -1,0 +1,38 @@
+XpToken_Taming_Fragment.name = Evcilleştirme XP Parçası
+XpToken_Taming_Fragment.description = Az miktarda Evcilleştirme XP'si kazanmak için tüket.
+
+XpToken_Taming_Shard.name = Evcilleştirme XP Kıymığı
+XpToken_Taming_Shard.description = Küçük miktarda Evcilleştirme XP'si kazanmak için tüket.
+
+XpToken_Taming_Piece.name = Evcilleştirme XP Parçacığı
+XpToken_Taming_Piece.description = Orta miktarda Evcilleştirme XP'si kazanmak için tüket.
+
+XpToken_Taming_Token.name = Evcilleştirme XP Jetonu
+XpToken_Taming_Token.description = Hatırı sayılır miktarda Evcilleştirme XP'si kazanmak için tüket.
+
+XpToken_Taming_Tome.name = Evcilleştirme XP Cildi
+XpToken_Taming_Tome.description = Büyük miktarda Evcilleştirme XP'si kazanmak için tüket.
+
+XpToken_Taming_Grand_Tome.name = Büyük Evcilleştirme XP Cildi
+XpToken_Taming_Grand_Tome.description = Cömert miktarda Evcilleştirme XP'si kazanmak için tüket.
+
+XpToken_Taming_Relic.name = Evcilleştirme XP Kalıntısı
+XpToken_Taming_Relic.description = Devasa miktarda Evcilleştirme XP'si kazanmak için tüket.
+
+XpToken_Taming_Artifact.name = Evcilleştirme XP Eseri
+XpToken_Taming_Artifact.description = Muazzam miktarda Evcilleştirme XP'si kazanmak için tüket.
+
+BoostToken_Taming_Personal_Minor.name = Küçük Evcilleştirme XP Takviyesi
+BoostToken_Taming_Personal_Minor.description = Bir Evcilleştirme XP Takviyesi etkinleştirmek için tüket.
+
+BoostToken_Taming_Personal_Standard.name = Standart Evcilleştirme XP Takviyesi
+BoostToken_Taming_Personal_Standard.description = Bir Evcilleştirme XP Takviyesi etkinleştirmek için tüket.
+
+BoostToken_Taming_Personal_Major.name = Büyük Evcilleştirme XP Takviyesi
+BoostToken_Taming_Personal_Major.description = Bir Evcilleştirme XP Takviyesi etkinleştirmek için tüket.
+
+BoostToken_Taming_Personal_Grand.name = Görkemli Evcilleştirme XP Takviyesi
+BoostToken_Taming_Personal_Grand.description = Bir Evcilleştirme XP Takviyesi etkinleştirmek için tüket.
+
+BoostToken_Taming_Personal_Epic.name = Epik Evcilleştirme XP Takviyesi
+BoostToken_Taming_Personal_Epic.description = Bir Evcilleştirme XP Takviyesi etkinleştirmek için tüket.

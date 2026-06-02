@@ -1,0 +1,37 @@
+{
+  "Name": "Pack_Taming_Beastmaster",
+  "Payload": {
+    "id": "pack_taming_beastmaster",
+    "displayName": "Beastmaster",
+    "description": "Few master the bond between tamer and beast. Reach Taming level 60 to earn the title of Beastmaster.",
+    "category": "main",
+    "requiresFeatures": [
+      "taming"
+    ],
+    "sortOrder": 30,
+    "autoAccept": false,
+    "autoClaimRewards": false,
+    "tags": [
+      "Taming",
+      "Companions"
+    ],
+    "objectives": [
+      {
+        "id": "reach_taming_60",
+        "type": "REACH_LEVEL",
+        "target": "TAMING",
+        "amount": 60,
+        "displayText": "Reach Taming level 60",
+        "matchMode": "EXACT"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "XP",
+        "skill": "TAMING",
+        "amount": 100000,
+        "displayName": "+100,000 Taming XP"
+      }
+    ]
+  }
+}

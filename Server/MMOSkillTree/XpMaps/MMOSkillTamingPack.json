@@ -1,0 +1,13 @@
+{
+  "Name": "MMOSkillTamingPack",
+  "Payload": {
+    "TAMING": {
+      "FEED": 1,
+      "HARVEST": 5,
+      "BREEDING": 250,
+      "COMBAT_DAMAGE_DEALT": 1,
+      "COMBAT_DAMAGE_TAKEN": 0,
+      "CUSTOM": 0
+    }
+  }
+}

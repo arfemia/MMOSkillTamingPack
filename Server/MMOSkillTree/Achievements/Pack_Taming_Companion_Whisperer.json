@@ -1,0 +1,27 @@
+{
+  "Name": "Pack_Taming_Companion_Whisperer",
+  "Payload": {
+    "id": "pack_taming_companion_whisperer",
+    "displayName": "Companion Whisperer",
+    "description": "Feed or water companions 10,000 times.",
+    "category": "misc",
+    "subcategory": "taming",
+    "requiresFeatures": ["taming"],
+    "sortOrder": 42,
+    "points": 60,
+    "triggerType": "FEED_ANIMAL",
+    "target": "",
+    "requiredAmount": 10000,
+    "matchMode": "CONTAINS",
+    "chainId": "taming_caretaker",
+    "tier": 3,
+    "manualClaimRewards": [
+      {
+        "type": "XP",
+        "skill": "TAMING",
+        "amount": 150000,
+        "displayName": "+150,000 Taming XP"
+      }
+    ]
+  }
+}

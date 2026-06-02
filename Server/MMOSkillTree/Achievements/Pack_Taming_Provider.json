@@ -1,0 +1,19 @@
+{
+  "Name": "Pack_Taming_Provider",
+  "Payload": {
+    "id": "pack_taming_provider",
+    "displayName": "Provider",
+    "description": "Harvest from your companions 1,000 times.",
+    "category": "misc",
+    "subcategory": "taming",
+    "requiresFeatures": ["taming"],
+    "sortOrder": 51,
+    "points": 25,
+    "triggerType": "HARVEST_ANIMAL",
+    "target": "",
+    "requiredAmount": 1000,
+    "matchMode": "CONTAINS",
+    "chainId": "taming_forager",
+    "tier": 2
+  }
+}

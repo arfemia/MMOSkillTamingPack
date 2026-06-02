@@ -1,0 +1,21 @@
+{
+  "Name": "Pack_Taming_Tamer_I",
+  "Payload": {
+    "id": "pack_taming_tamer_i",
+    "displayName": "Tamer I",
+    "description": "Reach Taming level 10.",
+    "category": "misc",
+    "subcategory": "taming",
+    "requiresFeatures": [
+      "taming"
+    ],
+    "sortOrder": 10,
+    "points": 10,
+    "triggerType": "REACH_LEVEL",
+    "target": "TAMING",
+    "requiredAmount": 10,
+    "matchMode": "EXACT",
+    "chainId": "taming_tamer",
+    "tier": 1
+  }
+}
