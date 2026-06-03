@@ -14,7 +14,7 @@ This pack pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mmoskilltree)
 
 ## Requirements
 
-- [MMO Skill Tree](https://www.curseforge.com/hytale/mmoskilltree) (1.1.7 or newer for the breeding quests and achievements)
+- [MMO Skill Tree](https://www.curseforge.com/hytale/mmoskilltree) (1.2.0 or newer for the breeding quests and achievements)
 - [Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry) (the companion mod; it runs on the Alec's Tamework API)
 
 ## Install
