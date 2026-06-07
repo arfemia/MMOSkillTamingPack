@@ -40,7 +40,7 @@ xp-map keyed by `CompanionXpSource` enum name. This pack's
 ```
 taming-pack/
 ├── manifest.json
-├── tools/build.ps1                              forward-slash zip + deploy
+├── build.ps1                                    forward-slash zip + deploy
 └── Server/MMOSkillTree/
     ├── Control/MMOSkillTamingPack.json          add mode for XpMaps/Quests/Achievements/CommandRewards
     ├── XpMaps/MMOSkillTamingPack.json           TAMING source -> XP overrides
@@ -68,9 +68,12 @@ taming-pack/
 ## Build & deploy
 
 ```powershell
-& 'D:\dev\business\hyMMO\taming-pack\tools\build.ps1'          # build + copy to Mods
-& 'D:\dev\business\hyMMO\taming-pack\tools\build.ps1' -Install:$false   # build only
+.\build.ps1                  # build the zip, and install it if a Mods folder is known
+.\build.ps1 -Install:$false  # build only, no copy
+.\build.ps1 -ModsDir <path>  # build + install into an explicit folder
 ```
+
+`build.ps1` is self-locating and cross-platform (Windows PowerShell, or `pwsh ./build.ps1` on macOS/Linux). The zip is named `MMOSkillTamingPack-<version>.zip` with the version read from `manifest.json` (single source); on install the script first removes any older `MMOSkillTamingPack*.zip` from the Mods folder so only the current version loads. To auto-install on build, set `HYTALE_MODS_DIR` once to your Hytale `UserData/Mods` folder (or pass `-ModsDir`); without it the script just builds the zip.
 
 ## Verification
 

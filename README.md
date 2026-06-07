@@ -13,9 +13,18 @@ quests, achievements, and level rewards.
 
 ## Install
 
-1. Drop `MMOSkillTamingPack.zip` into your server's `UserData/Mods` folder
+1. Drop `MMOSkillTamingPack-1.0.0.zip` into your server's `UserData/Mods` folder
    (alongside the MMO Skill Tree jar and Alec's Animal Husbandry).
 2. Restart the server.
+
+## Build (from source)
+
+```powershell
+.\build.ps1                  # build the zip, and install it if a Mods folder is known
+.\build.ps1 -Install:$false  # build only, no copy
+```
+
+The script is self-contained and cross-platform (`pwsh ./build.ps1` works on macOS/Linux). It zips with the forward-slash plus directory entries Hytale needs; never use `Compress-Archive`. The built zip is named `MMOSkillTamingPack-<version>.zip` from the manifest version. To auto-install on build, set `HYTALE_MODS_DIR` once to your Hytale `UserData/Mods` folder (or pass `-ModsDir <path>`); without it the script just builds the zip.
 
 ## What it adds
 
