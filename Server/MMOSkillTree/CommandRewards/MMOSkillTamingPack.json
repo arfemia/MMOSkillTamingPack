@@ -4,21 +4,21 @@
     "TAMING": {
       "15": [
         {
-          "command": "/mmoboost give {player}|TAMING|1.5|30",
+          "command": "/mmoboost give --args={player}|TAMING|1.5|30",
           "color": "#7ec8e3",
           "autoClaim": true
         }
       ],
       "50": [
         {
-          "command": "/mmoboost give {player}|TAMING|2|45",
+          "command": "/mmoboost give --args={player}|TAMING|2|45",
           "color": "#7ec8e3",
           "autoClaim": true
         }
       ],
       "100": [
         {
-          "command": "/mmoboost give {player}|all|2|60",
+          "command": "/mmoboost give --args={player}|all|2|60",
           "color": "#ffd700",
           "autoClaim": true
         }

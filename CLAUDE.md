@@ -62,8 +62,10 @@ taming-pack/
   Tamework integration). Use `target: ""` (any companion); there is no per-species
   filter. Lifetime-XP goals use `GAIN_XP` with `target: "TAMING"`.
 - Rewards here use `BOOST_TOKEN` (`skill` + `multiplier` + `durationMinutes`) and
-  the per-level `/mmoboost give {player}|TAMING|<mult>|<minutes>` command, so the
-  pack needs no currency and no extra features beyond `"taming"`.
+  the per-level `/mmoboost give --args={player}|TAMING|<mult>|<minutes>` command
+  (the pipe blob must travel in `--args=`; the Hytale parser never binds
+  optional args positionally), so the pack needs no currency and no extra
+  features beyond `"taming"`.
 
 ## Build & deploy
 
