@@ -21,8 +21,7 @@
         "type": "BOOST_TOKEN",
         "skill": "TAMING",
         "multiplier": 3.0,
-        "durationMinutes": 180,
-        "displayName": "3x Taming Boost (180m)"
+        "durationMinutes": 180
       }
     ]
   }

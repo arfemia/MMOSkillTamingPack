@@ -27,8 +27,7 @@
       {
         "type": "XP",
         "skill": "TAMING",
-        "amount": 2000,
-        "displayName": "+2,000 Taming XP"
+        "amount": 2000
       }
     ]
   }
