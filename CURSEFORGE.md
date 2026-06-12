@@ -2,7 +2,7 @@
 
 Add a **Taming** skill to MMO Skill Tree that levels up as you care for your tamed companions.
 
-This pack pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mmoskilltree) with **[Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry)**, the companion mod (built on the Alec's Tamework API that the Taming skill reads). Install them and the Taming skill switches on automatically. Without Animal Husbandry, the skill and all of this pack's content stay hidden, so it is safe to keep installed either way.
+This pack pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) with **[Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry)**, the companion mod (built on the Alec's Tamework API that the Taming skill reads). Install them and the Taming skill switches on automatically. Without Animal Husbandry, the skill and all of this pack's content stay hidden, so it is safe to keep installed either way.
 
 ## What you get
 
@@ -14,7 +14,7 @@ This pack pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mmoskilltree)
 
 ## Requirements
 
-- [MMO Skill Tree](https://www.curseforge.com/hytale/mmoskilltree) (1.2.0 or newer for the breeding quests and achievements)
+- [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) (1.2.0 or newer for the breeding quests and achievements)
 - [Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry) (the companion mod; it runs on the Alec's Tamework API)
 
 ## Install

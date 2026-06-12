@@ -1,7 +1,7 @@
 # CLAUDE.md — MMOSkillTamingPack
 
 A **standalone Hytale content pack** that ships the Taming skill's content for
-the [MMOSkillTree mod](https://www.curseforge.com/hytale/mmoskilltree): quests,
+the [MMOSkillTree mod](https://www.curseforge.com/hytale/mods/mmo-skill-tree): quests,
 achievements, per-level boost rewards, and the Taming XP map.
 
 ## How the Taming skill activates
