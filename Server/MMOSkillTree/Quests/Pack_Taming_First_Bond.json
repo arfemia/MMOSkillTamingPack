@@ -19,7 +19,6 @@
         "type": "REACH_LEVEL",
         "target": "TAMING",
         "amount": 5,
-        "displayText": "Reach Taming level 5",
         "matchMode": "EXACT"
       }
     ],

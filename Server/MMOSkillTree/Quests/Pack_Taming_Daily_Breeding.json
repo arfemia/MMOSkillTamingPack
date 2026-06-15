@@ -18,7 +18,6 @@
         "type": "BREED_ANIMAL",
         "target": "",
         "amount": 5,
-        "displayText": "Breed 5 companions",
         "matchMode": "CONTAINS"
       }
     ],

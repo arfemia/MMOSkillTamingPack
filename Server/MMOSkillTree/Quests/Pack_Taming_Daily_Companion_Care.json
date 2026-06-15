@@ -18,7 +18,6 @@
         "type": "FEED_ANIMAL",
         "target": "",
         "amount": 20,
-        "displayText": "Feed or water companions 20 times",
         "matchMode": "CONTAINS"
       },
       {
@@ -26,7 +25,6 @@
         "type": "HARVEST_ANIMAL",
         "target": "",
         "amount": 5,
-        "displayText": "Harvest from companions 5 times",
         "matchMode": "CONTAINS"
       }
     ],

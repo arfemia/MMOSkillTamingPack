@@ -21,7 +21,6 @@
         "type": "REACH_LEVEL",
         "target": "TAMING",
         "amount": 25,
-        "displayText": "Reach Taming level 25",
         "matchMode": "EXACT"
       }
     ],
