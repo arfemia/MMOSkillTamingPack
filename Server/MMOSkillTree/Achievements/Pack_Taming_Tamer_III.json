@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Tamer_III",
   "Payload": {
     "id": "pack_taming_tamer_iii",
-    "displayName": "Tamer III",
-    "description": "Reach Taming level 80. Claim a hefty Taming XP reward for your dedication.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": [

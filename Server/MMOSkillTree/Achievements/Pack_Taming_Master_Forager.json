@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Master_Forager",
   "Payload": {
     "id": "pack_taming_master_forager",
-    "displayName": "Master Forager",
-    "description": "Harvest from your companions 10,000 times.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": ["taming"],

@@ -1,0 +1,45 @@
+# MMOSkillTamingPack - German (de-DE) display text for the MMO Skill Tree mod.
+# Convention keys: quest.<id>.title|flavor and achievement.<id>.title|desc resolve through
+# the mod's QuestTitleUtil / AchievementTextUtil seams (the raw displayName/description were
+# removed from the JSON in 1.4.0). Values are data-free flavor only: no digits, no restating
+# objective/reward amounts (the UI auto-renders those). Translations live in the sibling
+# Languages/<locale>/mmoskilltree.lang files.
+
+# ---- Quests: titles ----
+quest.pack_taming_first_bond.title = Erstes Band
+quest.pack_taming_companion_keeper.title = Gefährten-Hüter
+quest.pack_taming_beastmaster.title = Tiermeister
+quest.pack_taming_daily_breeding.title = Täglich: Brut aufziehen
+quest.pack_taming_daily_companion_care.title = Täglich: Gefährten-Pflege
+quest.pack_taming_weekly_husbandry.title = Wöchentlich: Meister der Zucht
+
+# ---- Quests: flavor (lore beyond the auto-rendered objective line) ----
+quest.pack_taming_first_bond.flavor = Verdiene das Vertrauen deines ersten Gefährten.
+quest.pack_taming_companion_keeper.flavor = Deine Menagerie wächst; zeige, dass du eine gesunde und florierende Gruppe von Gefährten halten kannst.
+quest.pack_taming_beastmaster.flavor = Nur wenige meistern die Bindung zwischen Zähmer und Bestie; verdiene dir den Titel Tiermeister.
+
+# ---- Achievements: titles ----
+achievement.pack_taming_tamer_i.title = Zähmer I
+achievement.pack_taming_tamer_ii.title = Zähmer II
+achievement.pack_taming_tamer_iii.title = Zähmer III
+achievement.pack_taming_grandmaster.title = Großmeister-Zähmer
+achievement.pack_taming_first_litter.title = Erstes Wurf
+achievement.pack_taming_breeder.title = Züchter
+achievement.pack_taming_prolific_breeder.title = Vielversprechender Züchter
+achievement.pack_taming_master_breeder.title = Meister-Züchter
+achievement.pack_taming_living_legend.title = Lebende Legende
+achievement.pack_taming_caretaker.title = Pfleger
+achievement.pack_taming_devoted_caretaker.title = Treuer Pfleger
+achievement.pack_taming_companion_whisperer.title = Gefährten-Flüsterer
+achievement.pack_taming_forager.title = Sammler
+achievement.pack_taming_provider.title = Versorger
+achievement.pack_taming_master_forager.title = Meister-Sammler
+achievement.pack_taming_beast_handler.title = Bestien-Bändiger
+achievement.pack_taming_warbeast_trainer.title = Kriegsbestie-Trainer
+achievement.pack_taming_warlord_of_beasts.title = Kriegsherr der Bestien
+achievement.pack_taming_bloodline.title = Blutlinie
+
+# ---- Achievements: descriptions (lore beyond the auto-rendered criterion line) ----
+achievement.pack_taming_grandmaster.desc = Der Höhepunkt der Bindung zwischen Zähmer und Bestie.
+achievement.pack_taming_living_legend.desc = Eine Dynastie ohne Gleichen.
+achievement.pack_taming_bloodline.desc = Verdient durch Füttern, Ernten, Züchten und Gefährten-Kampf.

@@ -1,0 +1,45 @@
+# MMOSkillTamingPack - Texto de pantalla en español (es-ES) para el mod MMO Skill Tree.
+# Convención de claves: quest.<id>.title|flavor y achievement.<id>.title|desc se resuelven a través de
+# los accesos QuestTitleUtil / AchievementTextUtil del mod (el rawDisplayName/description fue
+# eliminado del JSON en 1.4.0). Los valores son solo ambientación sin datos: sin dígitos, sin reafirmar
+# cantidades de objetivo/recompensa (la interfaz las renderiza automáticamente). Las traducciones viven en los
+# archivos Languages/<locale>/mmoskilltree.lang hermanos.
+
+# ---- Misiones: títulos ----
+quest.pack_taming_first_bond.title = Primer Vínculo
+quest.pack_taming_companion_keeper.title = Guardián de Compañeros
+quest.pack_taming_beastmaster.title = Domador de Bestias
+quest.pack_taming_daily_breeding.title = Diario: Cría de la Manada
+quest.pack_taming_daily_companion_care.title = Diario: Cuidado del Compañero
+quest.pack_taming_weekly_husbandry.title = Semanal: Maestro de Crianza
+
+# ---- Misiones: ambientación (trasfondo más allá de la línea de objetivo auto-renderizada) ----
+quest.pack_taming_first_bond.flavor = Gana la confianza de tu primer compañero.
+quest.pack_taming_companion_keeper.flavor = Tu menagerie crece; demuestra que puedes mantener un grupo de compañeros saludable y próspero.
+quest.pack_taming_beastmaster.flavor = Pocos dominan el vínculo entre domador y bestia; gánate el título de Domador de Bestias.
+
+# ---- Logros: títulos ----
+achievement.pack_taming_tamer_i.title = Domador I
+achievement.pack_taming_tamer_ii.title = Domador II
+achievement.pack_taming_tamer_iii.title = Domador III
+achievement.pack_taming_grandmaster.title = Gran Maestro Domador
+achievement.pack_taming_first_litter.title = Primera Camada
+achievement.pack_taming_breeder.title = Criador
+achievement.pack_taming_prolific_breeder.title = Criador Prolífico
+achievement.pack_taming_master_breeder.title = Maestro Criador
+achievement.pack_taming_living_legend.title = Leyenda Viviente
+achievement.pack_taming_caretaker.title = Cuidador
+achievement.pack_taming_devoted_caretaker.title = Cuidador Devoto
+achievement.pack_taming_companion_whisperer.title = Susurrador de Compañeros
+achievement.pack_taming_forager.title = Recolector
+achievement.pack_taming_provider.title = Proveedor
+achievement.pack_taming_master_forager.title = Maestro Recolector
+achievement.pack_taming_beast_handler.title = Manejador de Bestias
+achievement.pack_taming_warbeast_trainer.title = Entrenador de Bestias de Guerra
+achievement.pack_taming_warlord_of_beasts.title = Señor de la Guerra de Bestias
+achievement.pack_taming_bloodline.title = Linaje
+
+# ---- Logros: descripciones (trasfondo más allá de la línea de criterio auto-renderizada) ----
+achievement.pack_taming_grandmaster.desc = La cúspide del vínculo entre domador y bestia.
+achievement.pack_taming_living_legend.desc = Una dinastía sin igual.
+achievement.pack_taming_bloodline.desc = Ganado a través de alimentación, cosecha, cría y combate de compañeros.

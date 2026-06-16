@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Caretaker",
   "Payload": {
     "id": "pack_taming_caretaker",
-    "displayName": "Caretaker",
-    "description": "Feed or water companions 100 times.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": ["taming"],

@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Daily_Companion_Care",
   "Payload": {
     "id": "pack_taming_daily_companion_care",
-    "displayName": "Daily: Companion Care",
-    "description": "Look after your companions: feed or water them 20 times and harvest from them 5 times. Available again 24 hours after each completion.",
     "category": "main",
     "requiresFeatures": ["taming"],
     "sortOrder": 45,

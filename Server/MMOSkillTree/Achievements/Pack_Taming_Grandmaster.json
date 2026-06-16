@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Grandmaster",
   "Payload": {
     "id": "pack_taming_grandmaster",
-    "displayName": "Grandmaster Tamer",
-    "description": "Reach Taming level 100. The peak of the bond between tamer and beast.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": ["taming"],

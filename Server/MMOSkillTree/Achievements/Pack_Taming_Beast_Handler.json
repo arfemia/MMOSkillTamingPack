@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Beast_Handler",
   "Payload": {
     "id": "pack_taming_beast_handler",
-    "displayName": "Beast Handler",
-    "description": "Have your companions strike enemies 100 times.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": ["taming"],

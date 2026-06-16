@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Breeder",
   "Payload": {
     "id": "pack_taming_breeder",
-    "displayName": "Breeder",
-    "description": "Breed 100 companions.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": ["taming"],

@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Tamer_II",
   "Payload": {
     "id": "pack_taming_tamer_ii",
-    "displayName": "Tamer II",
-    "description": "Reach Taming level 40.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": [

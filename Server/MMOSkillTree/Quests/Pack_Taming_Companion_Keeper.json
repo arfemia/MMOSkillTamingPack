@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Companion_Keeper",
   "Payload": {
     "id": "pack_taming_companion_keeper",
-    "displayName": "Companion Keeper",
-    "description": "Your menagerie grows. Reach Taming level 25 to prove you can keep a healthy, thriving group of companions.",
     "category": "main",
     "requiresFeatures": [
       "taming"

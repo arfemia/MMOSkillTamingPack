@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Devoted_Caretaker",
   "Payload": {
     "id": "pack_taming_devoted_caretaker",
-    "displayName": "Devoted Caretaker",
-    "description": "Feed or water companions 1,000 times.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": ["taming"],

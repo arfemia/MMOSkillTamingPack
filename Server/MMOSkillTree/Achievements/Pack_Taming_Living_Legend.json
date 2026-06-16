@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Living_Legend",
   "Payload": {
     "id": "pack_taming_living_legend",
-    "displayName": "Living Legend",
-    "description": "Breed 25,000 companions. A dynasty without equal.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": ["taming"],

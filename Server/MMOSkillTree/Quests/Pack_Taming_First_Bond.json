@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_First_Bond",
   "Payload": {
     "id": "pack_taming_first_bond",
-    "displayName": "First Bond",
-    "description": "Earn the trust of your first companion. Reach Taming level 5 by feeding, breeding, and caring for tamed creatures.",
     "category": "main",
     "requiresFeatures": ["taming"],
     "sortOrder": 10,

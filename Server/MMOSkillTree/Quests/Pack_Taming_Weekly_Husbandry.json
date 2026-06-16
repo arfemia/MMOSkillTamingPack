@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Weekly_Husbandry",
   "Payload": {
     "id": "pack_taming_weekly_husbandry",
-    "displayName": "Weekly: Master of Husbandry",
-    "description": "Breed 25 companions and earn 5,000 Taming XP. Available again 7 days after each completion.",
     "category": "main",
     "requiresFeatures": ["taming"],
     "sortOrder": 50,

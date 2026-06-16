@@ -1,0 +1,45 @@
+# MMOSkillTamingPack - Magyar (hu-HU) megjelenített szöveg az MMO Skill Tree modhoz.
+# Konvenció kulcsok: quest.<id>.title|flavor és achievement.<id>.title|desc feloldása a mod
+# QuestTitleUtil / AchievementTextUtil seamjén keresztül (a nyers displayName/description eltávolítva
+# 1.4.0-ban). Az értékek adatmentes ízelítő csak: nincsenek számjegyek, nincsenek célorelvételt/jutalom
+# mennyiségek (a felhasználó felület ezeket automatikusan megjeleníti). A fordítások a testvér
+# Languages/<locale>/mmoskilltree.lang fájlokban élnek.
+
+# ---- Küldetések: címek ----
+quest.pack_taming_first_bond.title = Első Kötelék
+quest.pack_taming_companion_keeper.title = Társulattartó
+quest.pack_taming_beastmaster.title = Vadállat-mester
+quest.pack_taming_daily_breeding.title = Napi: Nevelj az Után
+quest.pack_taming_daily_companion_care.title = Napi: Társulat Gondozása
+quest.pack_taming_weekly_husbandry.title = Heti: Állattenyésztés Mestere
+
+# ---- Küldetések: ízelítő (lore a szöveg objektív sort túl) ----
+quest.pack_taming_first_bond.flavor = Nyerd meg az első társulatod bizalmát.
+quest.pack_taming_companion_keeper.flavor = A gyűjteményed nő; bizonyítsd, hogy képes vagy egy egészséges, virágzó társulatot tartani.
+quest.pack_taming_beastmaster.flavor = Kevesen uralkodnak a szelídítő és a vadállat közti köteléken; szerezd meg a Vadállat-mester címet.
+
+# ---- Teljesítmények: címek ----
+achievement.pack_taming_tamer_i.title = Szelídítő I
+achievement.pack_taming_tamer_ii.title = Szelídítő II
+achievement.pack_taming_tamer_iii.title = Szelídítő III
+achievement.pack_taming_grandmaster.title = Nagymester Szelídítő
+achievement.pack_taming_first_litter.title = Első Evés
+achievement.pack_taming_breeder.title = Tenyésztő
+achievement.pack_taming_prolific_breeder.title = Termékenysemény Tenyésztő
+achievement.pack_taming_master_breeder.title = Mester Tenyésztő
+achievement.pack_taming_living_legend.title = Élő Legenda
+achievement.pack_taming_caretaker.title = Gondozó
+achievement.pack_taming_devoted_caretaker.title = Odaadó Gondozó
+achievement.pack_taming_companion_whisperer.title = Társulat Suttogó
+achievement.pack_taming_forager.title = Gyűjtögető
+achievement.pack_taming_provider.title = Szolgáltató
+achievement.pack_taming_master_forager.title = Mester Gyűjtögető
+achievement.pack_taming_beast_handler.title = Vadállat-kezelő
+achievement.pack_taming_warbeast_trainer.title = Háborús Vadállat Oktató
+achievement.pack_taming_warlord_of_beasts.title = Vadállatok Háborúsúra
+achievement.pack_taming_bloodline.title = Vérág
+
+# ---- Teljesítmények: leírások (lore a szöveg kritérium sort túl) ----
+achievement.pack_taming_grandmaster.desc = A szelídítő és a vadállat közti kötelék csúcspontja.
+achievement.pack_taming_living_legend.desc = Egy válogatlan dinasztia.
+achievement.pack_taming_bloodline.desc = Etetéssel, betakarítással, tenyésztéssel és társulat harcban szerzett.

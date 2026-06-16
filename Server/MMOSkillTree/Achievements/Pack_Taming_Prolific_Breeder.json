@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Prolific_Breeder",
   "Payload": {
     "id": "pack_taming_prolific_breeder",
-    "displayName": "Prolific Breeder",
-    "description": "Breed 1,000 companions.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": ["taming"],

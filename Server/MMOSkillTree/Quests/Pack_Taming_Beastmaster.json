@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Beastmaster",
   "Payload": {
     "id": "pack_taming_beastmaster",
-    "displayName": "Beastmaster",
-    "description": "Few master the bond between tamer and beast. Reach Taming level 60 to earn the title of Beastmaster.",
     "category": "main",
     "requiresFeatures": [
       "taming"

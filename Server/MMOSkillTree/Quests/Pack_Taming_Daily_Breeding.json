@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Daily_Breeding",
   "Payload": {
     "id": "pack_taming_daily_breeding",
-    "displayName": "Daily: Raise the Brood",
-    "description": "Breed 5 companions. Available again 24 hours after each completion.",
     "category": "main",
     "requiresFeatures": ["taming"],
     "sortOrder": 40,

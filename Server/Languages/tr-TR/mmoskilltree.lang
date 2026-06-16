@@ -1,0 +1,45 @@
+# MMOSkillTamingPack - Türkçe (tr-TR) display text for the MMO Skill Tree mod.
+# Convention keys: quest.<id>.title|flavor and achievement.<id>.title|desc resolve through
+# the mod's QuestTitleUtil / AchievementTextUtil seams (the raw displayName/description were
+# removed from the JSON in 1.4.0). Values are data-free flavor only: no digits, no restating
+# objective/reward amounts (the UI auto-renders those). Translations live in the sibling
+# Languages/<locale>/mmoskilltree.lang files.
+
+# ---- Quests: titles ----
+quest.pack_taming_first_bond.title = İlk Bağ
+quest.pack_taming_companion_keeper.title = Hayvan Bakıcısı
+quest.pack_taming_beastmaster.title = Hayvan Ustası
+quest.pack_taming_daily_breeding.title = Günlük: Yavruları Yetiştir
+quest.pack_taming_daily_companion_care.title = Günlük: Hayvan Bakımı
+quest.pack_taming_weekly_husbandry.title = Haftalık: Çiftçilik Ustası
+
+# ---- Quests: flavor (lore beyond the auto-rendered objective line) ----
+quest.pack_taming_first_bond.flavor = İlk hayvan arkadaşının güvenini kazan.
+quest.pack_taming_companion_keeper.flavor = Hayvan koleksiyonun büyüyor; sağlıklı ve gelişen bir hayvan grubunu tutabileceğini kanıtla.
+quest.pack_taming_beastmaster.flavor = Az kişi hayvancı ile hayvan arasındaki bağları ustalıkla yönetir; Hayvan Ustası unvanını kazan.
+
+# ---- Achievements: titles ----
+achievement.pack_taming_tamer_i.title = Hayvancı I
+achievement.pack_taming_tamer_ii.title = Hayvancı II
+achievement.pack_taming_tamer_iii.title = Hayvancı III
+achievement.pack_taming_grandmaster.title = Usta Hayvancı
+achievement.pack_taming_first_litter.title = İlk Yavru Yığını
+achievement.pack_taming_breeder.title = Üretici
+achievement.pack_taming_prolific_breeder.title = Verimli Üretici
+achievement.pack_taming_master_breeder.title = Usta Üretici
+achievement.pack_taming_living_legend.title = Yaşayan Efsane
+achievement.pack_taming_caretaker.title = Bakıcı
+achievement.pack_taming_devoted_caretaker.title = Özverili Bakıcı
+achievement.pack_taming_companion_whisperer.title = Hayvan Fısıltıcısı
+achievement.pack_taming_forager.title = Orman Haracı
+achievement.pack_taming_provider.title = Sağlayıcı
+achievement.pack_taming_master_forager.title = Usta Orman Haracı
+achievement.pack_taming_beast_handler.title = Hayvan İşlemcisi
+achievement.pack_taming_warbeast_trainer.title = Savaş Hayvanı Eğitmeni
+achievement.pack_taming_warlord_of_beasts.title = Hayvanlar Savaş Lordu
+achievement.pack_taming_bloodline.title = Soy Ağacı
+
+# ---- Achievements: descriptions (lore beyond the auto-rendered criterion line) ----
+achievement.pack_taming_grandmaster.desc = Hayvancı ve hayvan arasındaki bağın zirvesi.
+achievement.pack_taming_living_legend.desc = Eşsiz bir saltanat.
+achievement.pack_taming_bloodline.desc = Beslenme, hasat, üretim ve hayvan savaşı yoluyla kazanıldı.

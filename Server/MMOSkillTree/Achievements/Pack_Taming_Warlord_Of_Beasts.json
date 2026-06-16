@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Warlord_Of_Beasts",
   "Payload": {
     "id": "pack_taming_warlord_of_beasts",
-    "displayName": "Warlord of Beasts",
-    "description": "Have your companions strike enemies 10,000 times.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": ["taming"],

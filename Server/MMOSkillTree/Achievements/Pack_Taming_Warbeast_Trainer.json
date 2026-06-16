@@ -2,8 +2,6 @@
   "Name": "Pack_Taming_Warbeast_Trainer",
   "Payload": {
     "id": "pack_taming_warbeast_trainer",
-    "displayName": "Warbeast Trainer",
-    "description": "Have your companions strike enemies 1,000 times.",
     "category": "misc",
     "subcategory": "taming",
     "requiresFeatures": ["taming"],
