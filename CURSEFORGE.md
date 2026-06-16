@@ -33,7 +33,7 @@ Drop the pack into your server's mods folder next to MMO Skill Tree and Alec's A
 
 | Pack  | Plugin | Notes |
 | ----- | ------ | ----- |
-| 1.1.0 | 1.3.0+ | Fixes the automatic boost rewards at Taming levels 15, 50, and 100 never actually granting (the reward command's arguments never bound, so it silently did nothing). Reward lines drop their baked English names; the plugin renders each line localized in the player's language. |
+| 1.1.0 | 1.3.0+ | Fixes the automatic boost rewards at Taming levels 15, 50, and 100 never actually granting (the reward command's arguments never bound, so it silently did nothing). Reward lines drop their baked English names; the plugin renders each line localized in the player's language. Quests and achievements drop their baked English titles and descriptions and ship translation keys for all nine languages. |
 | 1.0.0 | 1.2.0+ | First release. Taming XP map, progression + repeatable daily/weekly quests, achievement chains for every companion activity, and per-level boost rewards. |
 
 ---
