@@ -1,0 +1,17 @@
+{
+  "$Comment": [
+    "The very first Taming milestone: reach Taming 5 with any companion.",
+    "Manual claim (AutoClaim false) so the reward sits waiting in the quest log rather than firing",
+    "the instant the level ticks over mid-session."
+  ],
+  "Text": { "TitleKey": "quest.pack_taming_first_bond.title", "FlavorKey": "quest.pack_taming_first_bond.flavor" },
+  "Listing": { "Category": "main", "SortOrder": 10, "Tags": ["Taming", "Companions"] },
+  "Flow": { "AutoClaim": false },
+  "Requires": { "Factors": [ { "Factor": "mmoskilltree:feature", "Param": "taming", "Min": 1 } ] },
+  "Objectives": {
+    "reach_taming_5": { "Kind": "REACH_LEVEL", "Target": "TAMING", "MatchMode": "EXACT", "Amount": 5 }
+  },
+  "Rewards": [
+    { "Kind": "xp", "Params": { "Skill": "TAMING", "Amount": "2000" } }
+  ]
+}

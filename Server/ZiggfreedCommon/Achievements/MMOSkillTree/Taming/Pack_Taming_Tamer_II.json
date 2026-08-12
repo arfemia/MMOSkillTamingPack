@@ -1,0 +1,40 @@
+{
+  "$Comment": "Second rung of the Tamer level ladder: reach Taming 40.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_tamer_ii.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 11,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_tamer",
+        "Tier": 2
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 25
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "REACH_LEVEL",
+      "Target": "TAMING",
+      "MatchMode": "EXACT",
+      "Amount": 40
+    }
+  ]
+}

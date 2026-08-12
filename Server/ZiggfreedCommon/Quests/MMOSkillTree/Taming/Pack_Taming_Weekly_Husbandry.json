@@ -1,0 +1,18 @@
+{
+  "$Comment": [
+    "Repeats once a week: breed 25 companions and earn 5000 Taming XP.",
+    "The bigger weekly cousin of the daily breeding goal, worth a much larger flat reward."
+  ],
+  "Text": { "TitleKey": "quest.pack_taming_weekly_husbandry.title" },
+  "Listing": { "Category": "main", "SortOrder": 50, "Tags": ["Taming", "Weekly"] },
+  "Flow": { "AutoClaim": false },
+  "Repeat": { "Repeatable": true, "CooldownSeconds": 604800 },
+  "Requires": { "Factors": [ { "Factor": "mmoskilltree:feature", "Param": "taming", "Min": 1 } ] },
+  "Objectives": {
+    "breed_25": { "Kind": "BREED_ANIMAL", "Amount": 25 },
+    "earn_taming_xp": { "Kind": "GAIN_XP", "Target": "TAMING", "MatchMode": "EXACT", "Amount": 5000 }
+  },
+  "Rewards": [
+    { "Kind": "xp", "Params": { "Skill": "TAMING", "Amount": "20000" } }
+  ]
+}

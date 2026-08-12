@@ -1,0 +1,10 @@
+{
+  "$Comment": "A standalone milestone, separate from the level and activity ladders: earn 1,000,000 lifetime Taming XP.",
+  "Text": { "TitleKey": "achievement.pack_taming_bloodline.title", "FlavorKey": "achievement.pack_taming_bloodline.desc" },
+  "Listing": { "Category": "misc", "Subcategory": "taming", "SortOrder": 30, "Tags": ["taming"] },
+  "Scoring": { "Points": 50 },
+  "Requires": { "Factors": [ { "Factor": "mmoskilltree:feature", "Param": "taming", "Min": 1 } ] },
+  "Criteria": [
+    { "Kind": "GAIN_XP", "Target": "TAMING", "MatchMode": "EXACT", "Amount": 1000000 }
+  ]
+}

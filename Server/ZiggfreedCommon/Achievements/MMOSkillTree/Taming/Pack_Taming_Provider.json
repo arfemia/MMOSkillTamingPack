@@ -1,0 +1,38 @@
+{
+  "$Comment": "Second rung of the Forager ladder: harvest companion drops 1,000 times, lifetime.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_provider.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 51,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_forager",
+        "Tier": 2
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 25
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "HARVEST_ANIMAL",
+      "Amount": 1000
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$Comment": [
+    "Repeats once a day: breed 5 companions of any species.",
+    "Manual claim so it sits in the log until collected, and only re-arms a day after that claim."
+  ],
+  "Text": { "TitleKey": "quest.pack_taming_daily_breeding.title" },
+  "Listing": { "Category": "main", "SortOrder": 40, "Tags": ["Taming", "Daily"] },
+  "Flow": { "AutoClaim": false },
+  "Repeat": { "Repeatable": true, "CooldownSeconds": 86400 },
+  "Requires": { "Factors": [ { "Factor": "mmoskilltree:feature", "Param": "taming", "Min": 1 } ] },
+  "Objectives": {
+    "breed_5": { "Kind": "BREED_ANIMAL", "Amount": 5 }
+  },
+  "Rewards": [
+    { "Kind": "xp", "Params": { "Skill": "TAMING", "Amount": "2500" } }
+  ]
+}

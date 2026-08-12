@@ -1,0 +1,38 @@
+{
+  "$Comment": "First rung of the Forager ladder: harvest companion drops 100 times, lifetime.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_forager.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 50,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_forager",
+        "Tier": 1
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 10
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "HARVEST_ANIMAL",
+      "Amount": 100
+    }
+  ]
+}

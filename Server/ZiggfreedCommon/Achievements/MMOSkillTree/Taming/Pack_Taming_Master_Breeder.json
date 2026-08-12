@@ -1,0 +1,47 @@
+{
+  "$Comment": "Fourth rung of the Breeder ladder: breed 10,000 companions, lifetime. Pays a large one-time XP bonus on claim.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_master_breeder.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 23,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_breeder",
+        "Tier": 4
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 75
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "BREED_ANIMAL",
+      "Amount": 10000
+    }
+  ],
+  "ClaimRewards": [
+    {
+      "Kind": "xp",
+      "Params": {
+        "Skill": "TAMING",
+        "Amount": "200000"
+      }
+    }
+  ]
+}

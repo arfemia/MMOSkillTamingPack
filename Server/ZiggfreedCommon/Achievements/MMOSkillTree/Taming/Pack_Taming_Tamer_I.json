@@ -1,0 +1,40 @@
+{
+  "$Comment": "First rung of the Tamer level ladder: reach Taming 10.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_tamer_i.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 10,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_tamer",
+        "Tier": 1
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 10
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "REACH_LEVEL",
+      "Target": "TAMING",
+      "MatchMode": "EXACT",
+      "Amount": 10
+    }
+  ]
+}

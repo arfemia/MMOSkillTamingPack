@@ -1,0 +1,38 @@
+{
+  "$Comment": "Second rung of the Caretaker ladder: feed companions 1,000 times, lifetime.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_devoted_caretaker.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 41,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_caretaker",
+        "Tier": 2
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 25
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "FEED_ANIMAL",
+      "Amount": 1000
+    }
+  ]
+}

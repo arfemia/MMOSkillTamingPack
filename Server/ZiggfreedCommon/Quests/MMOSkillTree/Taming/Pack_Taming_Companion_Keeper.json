@@ -1,0 +1,16 @@
+{
+  "$Comment": [
+    "The second Taming milestone: reach Taming 25 while keeping a growing menagerie fed.",
+    "Manual claim, same as the rest of this progression line."
+  ],
+  "Text": { "TitleKey": "quest.pack_taming_companion_keeper.title", "FlavorKey": "quest.pack_taming_companion_keeper.flavor" },
+  "Listing": { "Category": "main", "SortOrder": 20, "Tags": ["Taming", "Companions"] },
+  "Flow": { "AutoClaim": false },
+  "Requires": { "Factors": [ { "Factor": "mmoskilltree:feature", "Param": "taming", "Min": 1 } ] },
+  "Objectives": {
+    "reach_taming_25": { "Kind": "REACH_LEVEL", "Target": "TAMING", "MatchMode": "EXACT", "Amount": 25 }
+  },
+  "Rewards": [
+    { "Kind": "xp", "Params": { "Skill": "TAMING", "Amount": "15000" } }
+  ]
+}

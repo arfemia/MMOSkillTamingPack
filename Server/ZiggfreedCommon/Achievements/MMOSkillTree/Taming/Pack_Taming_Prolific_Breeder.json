@@ -1,0 +1,38 @@
+{
+  "$Comment": "Third rung of the Breeder ladder: breed 1,000 companions, lifetime.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_prolific_breeder.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 22,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_breeder",
+        "Tier": 3
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 30
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "BREED_ANIMAL",
+      "Amount": 1000
+    }
+  ]
+}

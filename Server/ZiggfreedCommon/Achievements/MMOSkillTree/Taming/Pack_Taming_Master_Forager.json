@@ -1,0 +1,47 @@
+{
+  "$Comment": "The peak of the Forager ladder: harvest companion drops 10,000 times, lifetime. Pays a large one-time XP bonus on claim.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_master_forager.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 52,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_forager",
+        "Tier": 3
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 60
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "HARVEST_ANIMAL",
+      "Amount": 10000
+    }
+  ],
+  "ClaimRewards": [
+    {
+      "Kind": "xp",
+      "Params": {
+        "Skill": "TAMING",
+        "Amount": "150000"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$Comment": "The peak of the Breeder ladder: breed 25,000 companions, lifetime. Kept off the achievement list until earned, and pays a strong Taming boost token on claim.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_living_legend.title",
+    "FlavorKey": "achievement.pack_taming_living_legend.desc"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 24,
+    "Hidden": true,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_breeder",
+        "Tier": 5
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 150
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "BREED_ANIMAL",
+      "Amount": 25000
+    }
+  ],
+  "ClaimRewards": [
+    {
+      "Kind": "boost_token",
+      "Params": {
+        "Skill": "TAMING",
+        "Multiplier": "3.0",
+        "DurationMinutes": "180"
+      }
+    }
+  ]
+}

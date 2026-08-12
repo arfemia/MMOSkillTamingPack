@@ -1,7 +1,7 @@
 {
   "Group": "Ziggfreed",
   "Name": "MMOSkillTamingPack",
-  "Version": "1.1.0",
+  "Version": "1.2.0",
   "Description": "Taming skill content for MMO Skill Tree: companion-themed quests, achievements, per-level boost rewards, and the Taming XP map. Pairs with Alec's Animal Husbandry (built on the Alec's Tamework API); the Taming skill activates only when it is installed.",
   "Authors": [
     {
@@ -11,8 +11,8 @@
   "Website": "https://mmo-skill-tree-docs.ziggfreed.com/",
   "ServerVersion": ">=0.5.0-pre.0 <0.6.0",
   "IncludesAssetPack": true,
-  "Dependencies": {},
-  "OptionalDependencies": {
-    "Ziggfreed:MMOSkillTree": "^1.1.0"
+  "Dependencies": {
+    "Ziggfreed:MMOSkillTree": "^1.6.0",
+    "Ziggfreed:ZiggfreedCommon": ">=1.4.0"
   }
 }

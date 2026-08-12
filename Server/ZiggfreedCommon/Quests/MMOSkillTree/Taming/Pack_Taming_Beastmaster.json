@@ -1,0 +1,16 @@
+{
+  "$Comment": [
+    "The capstone of the Taming progression line: reach Taming 60.",
+    "Manual claim, same as the rest of this progression line."
+  ],
+  "Text": { "TitleKey": "quest.pack_taming_beastmaster.title", "FlavorKey": "quest.pack_taming_beastmaster.flavor" },
+  "Listing": { "Category": "main", "SortOrder": 30, "Tags": ["Taming", "Companions"] },
+  "Flow": { "AutoClaim": false },
+  "Requires": { "Factors": [ { "Factor": "mmoskilltree:feature", "Param": "taming", "Min": 1 } ] },
+  "Objectives": {
+    "reach_taming_60": { "Kind": "REACH_LEVEL", "Target": "TAMING", "MatchMode": "EXACT", "Amount": 60 }
+  },
+  "Rewards": [
+    { "Kind": "xp", "Params": { "Skill": "TAMING", "Amount": "100000" } }
+  ]
+}

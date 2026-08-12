@@ -1,0 +1,18 @@
+{
+  "$Comment": [
+    "Repeats once a day: feed 20 companion meals and harvest 5 companion drops.",
+    "The two steps have no Order between them, so either can be done first."
+  ],
+  "Text": { "TitleKey": "quest.pack_taming_daily_companion_care.title" },
+  "Listing": { "Category": "main", "SortOrder": 45, "Tags": ["Taming", "Daily"] },
+  "Flow": { "AutoClaim": false },
+  "Repeat": { "Repeatable": true, "CooldownSeconds": 86400 },
+  "Requires": { "Factors": [ { "Factor": "mmoskilltree:feature", "Param": "taming", "Min": 1 } ] },
+  "Objectives": {
+    "feed_20": { "Kind": "FEED_ANIMAL", "Amount": 20 },
+    "harvest_5": { "Kind": "HARVEST_ANIMAL", "Amount": 5 }
+  },
+  "Rewards": [
+    { "Kind": "xp", "Params": { "Skill": "TAMING", "Amount": "2500" } }
+  ]
+}

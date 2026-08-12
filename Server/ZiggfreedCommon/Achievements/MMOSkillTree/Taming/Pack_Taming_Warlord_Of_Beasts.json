@@ -1,0 +1,47 @@
+{
+  "$Comment": "The peak of the Warbeasts ladder: land 10,000 companion combat hits, lifetime. Pays a large one-time XP bonus on claim.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_warlord_of_beasts.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 62,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_warbeasts",
+        "Tier": 3
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 75
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "COMPANION_COMBAT",
+      "Amount": 10000
+    }
+  ],
+  "ClaimRewards": [
+    {
+      "Kind": "xp",
+      "Params": {
+        "Skill": "TAMING",
+        "Amount": "150000"
+      }
+    }
+  ]
+}

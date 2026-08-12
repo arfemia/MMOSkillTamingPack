@@ -1,0 +1,38 @@
+{
+  "$Comment": "Second rung of the Warbeasts ladder: land 1,000 companion combat hits, lifetime.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_warbeast_trainer.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 61,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_warbeasts",
+        "Tier": 2
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 25
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "COMPANION_COMBAT",
+      "Amount": 1000
+    }
+  ]
+}

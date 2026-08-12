@@ -1,0 +1,38 @@
+{
+  "$Comment": "First rung of the Caretaker ladder: feed companions 100 times, lifetime.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_caretaker.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 40,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_caretaker",
+        "Tier": 1
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 10
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "FEED_ANIMAL",
+      "Amount": 100
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$Comment": "Third rung of the Tamer level ladder: reach Taming 80. Pays a large one-time XP bonus on claim.",
+  "Text": {
+    "TitleKey": "achievement.pack_taming_tamer_iii.title"
+  },
+  "Listing": {
+    "Category": "misc",
+    "Subcategory": "taming",
+    "SortOrder": 12,
+    "Tags": [
+      "taming"
+    ],
+    "Chains": [
+      {
+        "Id": "taming_tamer",
+        "Tier": 3
+      }
+    ]
+  },
+  "Scoring": {
+    "Points": 50
+  },
+  "Requires": {
+    "Factors": [
+      {
+        "Factor": "mmoskilltree:feature",
+        "Param": "taming",
+        "Min": 1
+      }
+    ]
+  },
+  "Criteria": [
+    {
+      "Kind": "REACH_LEVEL",
+      "Target": "TAMING",
+      "MatchMode": "EXACT",
+      "Amount": 80
+    }
+  ],
+  "ClaimRewards": [
+    {
+      "Kind": "xp",
+      "Params": {
+        "Skill": "TAMING",
+        "Amount": "250000"
+      }
+    }
+  ]
+}
