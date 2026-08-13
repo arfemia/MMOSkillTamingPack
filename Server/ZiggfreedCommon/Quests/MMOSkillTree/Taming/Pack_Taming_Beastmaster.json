@@ -11,6 +11,6 @@
     "reach_taming_60": { "Kind": "REACH_LEVEL", "Target": "TAMING", "MatchMode": "EXACT", "Amount": 60 }
   },
   "Rewards": [
-    { "Kind": "xp", "Params": { "Skill": "TAMING", "Amount": "100000" } }
+    { "Kind": "Mmo_Xp", "Params": { "Skill": "TAMING", "Amount": "100000" } }
   ]
 }

@@ -6,12 +6,12 @@
   "Text": { "TitleKey": "quest.pack_taming_daily_breeding.title" },
   "Listing": { "Category": "main", "SortOrder": 40, "Tags": ["Taming", "Daily"] },
   "Flow": { "AutoClaim": false },
-  "Repeat": { "Repeatable": true, "CooldownSeconds": 86400 },
+  "Repeat": { "Cooldown": { "Days": 1 } },
   "Requires": { "Factors": [ { "Factor": "mmoskilltree:feature", "Param": "taming", "Min": 1 } ] },
   "Objectives": {
     "breed_5": { "Kind": "BREED_ANIMAL", "Amount": 5 }
   },
   "Rewards": [
-    { "Kind": "xp", "Params": { "Skill": "TAMING", "Amount": "2500" } }
+    { "Kind": "Mmo_Xp", "Params": { "Skill": "TAMING", "Amount": "2500" } }
   ]
 }

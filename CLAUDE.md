@@ -84,8 +84,8 @@ taming-pack/
   `taming_warbeasts`), `Tier` the rung counting from 1, and `SortOrder` still places
   the entry on the page. `Listing.Subcategory` (`"taming"`) groups them all together.
 - Rewards are `RewardEntryAsset` (`Kind` + `Params`), not the old `type`/scalar-field
-  form: `{"Kind": "xp", "Params": {"Skill": "TAMING", "Amount": "..."}}` and
-  `{"Kind": "boost_token", "Params": {"Skill": "TAMING", "Multiplier": "...",
+  form: `{"Kind": "Mmo_Xp", "Params": {"Skill": "TAMING", "Amount": "..."}}` and
+  `{"Kind": "Mmo_Boost_Token", "Params": {"Skill": "TAMING", "Multiplier": "...",
   "DurationMinutes": "..."}}` are the two kinds this pack authors, on a quest's
   `Rewards` or an achievement's `Rewards` (instant) / `ClaimRewards` (collected
   later). This pack needs no currency and no extra features beyond `"taming"`.

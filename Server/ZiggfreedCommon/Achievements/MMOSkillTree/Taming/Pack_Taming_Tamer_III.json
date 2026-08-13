@@ -39,7 +39,7 @@
   ],
   "ClaimRewards": [
     {
-      "Kind": "xp",
+      "Kind": "Mmo_Xp",
       "Params": {
         "Skill": "TAMING",
         "Amount": "250000"

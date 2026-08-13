@@ -39,7 +39,7 @@
   ],
   "ClaimRewards": [
     {
-      "Kind": "boost_token",
+      "Kind": "Mmo_Boost_Token",
       "Params": {
         "Skill": "TAMING",
         "Multiplier": "3.0",

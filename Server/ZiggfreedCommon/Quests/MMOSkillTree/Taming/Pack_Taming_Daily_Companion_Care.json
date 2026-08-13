@@ -6,13 +6,13 @@
   "Text": { "TitleKey": "quest.pack_taming_daily_companion_care.title" },
   "Listing": { "Category": "main", "SortOrder": 45, "Tags": ["Taming", "Daily"] },
   "Flow": { "AutoClaim": false },
-  "Repeat": { "Repeatable": true, "CooldownSeconds": 86400 },
+  "Repeat": { "Cooldown": { "Days": 1 } },
   "Requires": { "Factors": [ { "Factor": "mmoskilltree:feature", "Param": "taming", "Min": 1 } ] },
   "Objectives": {
     "feed_20": { "Kind": "FEED_ANIMAL", "Amount": 20 },
     "harvest_5": { "Kind": "HARVEST_ANIMAL", "Amount": 5 }
   },
   "Rewards": [
-    { "Kind": "xp", "Params": { "Skill": "TAMING", "Amount": "2500" } }
+    { "Kind": "Mmo_Xp", "Params": { "Skill": "TAMING", "Amount": "2500" } }
   ]
 }
