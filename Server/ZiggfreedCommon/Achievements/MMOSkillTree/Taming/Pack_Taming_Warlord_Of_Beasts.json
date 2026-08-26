@@ -29,19 +29,21 @@
       }
     ]
   },
-  "Criteria": [
-    {
+  "Criteria": {
+    "companion-combat": {
       "Kind": "COMPANION_COMBAT",
       "Amount": 10000
     }
-  ],
-  "ClaimRewards": [
-    {
-      "Kind": "Mmo_Xp",
-      "Params": {
-        "Skill": "TAMING",
-        "Amount": "150000"
+  },
+  "Rewards": {
+    "Claim": [
+      {
+        "Kind": "Mmo_Xp",
+        "Params": {
+          "Skill": "TAMING",
+          "Amount": "150000"
+        }
       }
-    }
-  ]
+    ]
+  }
 }

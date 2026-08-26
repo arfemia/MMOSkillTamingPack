@@ -29,10 +29,10 @@
       }
     ]
   },
-  "Criteria": [
-    {
+  "Criteria": {
+    "harvest-animal": {
       "Kind": "HARVEST_ANIMAL",
       "Amount": 100
     }
-  ]
+  }
 }

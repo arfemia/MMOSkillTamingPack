@@ -29,10 +29,10 @@
       }
     ]
   },
-  "Criteria": [
-    {
+  "Criteria": {
+    "companion-combat": {
       "Kind": "COMPANION_COMBAT",
       "Amount": 1000
     }
-  ]
+  }
 }

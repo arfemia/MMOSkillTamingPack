@@ -29,10 +29,10 @@
       }
     ]
   },
-  "Criteria": [
-    {
+  "Criteria": {
+    "breed-animal": {
       "Kind": "BREED_ANIMAL",
       "Amount": 100
     }
-  ]
+  }
 }

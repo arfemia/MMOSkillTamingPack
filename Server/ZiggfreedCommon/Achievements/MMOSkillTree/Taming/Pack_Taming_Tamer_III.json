@@ -29,21 +29,23 @@
       }
     ]
   },
-  "Criteria": [
-    {
+  "Criteria": {
+    "reach-level-taming": {
       "Kind": "REACH_LEVEL",
       "Target": "TAMING",
       "MatchMode": "EXACT",
       "Amount": 80
     }
-  ],
-  "ClaimRewards": [
-    {
-      "Kind": "Mmo_Xp",
-      "Params": {
-        "Skill": "TAMING",
-        "Amount": "250000"
+  },
+  "Rewards": {
+    "Claim": [
+      {
+        "Kind": "Mmo_Xp",
+        "Params": {
+          "Skill": "TAMING",
+          "Amount": "250000"
+        }
       }
-    }
-  ]
+    ]
+  }
 }

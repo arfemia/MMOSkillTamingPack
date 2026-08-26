@@ -30,22 +30,24 @@
       }
     ]
   },
-  "Criteria": [
-    {
+  "Criteria": {
+    "reach-level-taming": {
       "Kind": "REACH_LEVEL",
       "Target": "TAMING",
       "MatchMode": "EXACT",
       "Amount": 100
     }
-  ],
-  "ClaimRewards": [
-    {
-      "Kind": "Mmo_Boost_Token",
-      "Params": {
-        "Skill": "TAMING",
-        "Multiplier": "3.0",
-        "DurationMinutes": "120"
+  },
+  "Rewards": {
+    "Claim": [
+      {
+        "Kind": "Mmo_Boost_Token",
+        "Params": {
+          "Skill": "TAMING",
+          "Multiplier": "3.0",
+          "DurationMinutes": "120"
+        }
       }
-    }
-  ]
+    ]
+  }
 }

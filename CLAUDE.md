@@ -70,12 +70,12 @@ taming-pack/
   through the Tamework integration; omit `Target` for "any companion" (there is no
   per-species filter) and omit `MatchMode` (unauthored already means the forgiving
   `CONTAINS`).
-- **Achievement `Criteria` is an ordered array and the order is the persistence
-  contract**: progress is stored by each entry's position (`"<id>#<index>"`), so
-  appending a criterion is safe but inserting, removing, or reordering one moves
-  every player's progress onto a different criterion. Every achievement here is
-  still single-criterion, so this pack never has to think about it, but do not
-  reorder `Criteria` on a future multi-step achievement without a migration.
+- **Achievement `Criteria` is a map keyed by criterion id, and the KEY is the
+  persistence contract**: progress is stored under `"<id>#<critKey>"`, so renaming
+  a key starts that criterion over for everybody while adding, removing, or
+  reordering entries never moves anyone's progress. Every achievement here is
+  single-criterion under one stable key, so day to day this pack never has to
+  think about it; just keep a key once shipped.
 - Level ladders (Tamer I/II/III/Grandmaster), breeding ladders (First Litter through
   Living Legend), and the feeding/harvesting/combat ladders each declare themselves
   on `Listing.Chains: [{"Id": "taming_tamer", "Tier": 2}]` - the shared ladder leaf,
@@ -86,9 +86,9 @@ taming-pack/
 - Rewards are `RewardEntryAsset` (`Kind` + `Params`), not the old `type`/scalar-field
   form: `{"Kind": "Mmo_Xp", "Params": {"Skill": "TAMING", "Amount": "..."}}` and
   `{"Kind": "Mmo_Boost_Token", "Params": {"Skill": "TAMING", "Multiplier": "...",
-  "DurationMinutes": "..."}}` are the two kinds this pack authors, on a quest's
-  `Rewards` or an achievement's `Rewards` (instant) / `ClaimRewards` (collected
-  later). This pack needs no currency and no extra features beyond `"taming"`.
+  "DurationMinutes": "..."}}` are the two kinds this pack authors, inside the
+  `Rewards` group's two buckets (`Auto` lands on settling, `Claim` waits to be
+  collected). This pack needs no currency and no extra features beyond `"taming"`.
 - Display text is localization keys only, never a raw name: `Text.TitleKey` /
   `Text.FlavorKey` point at the `quest.<id>.title|flavor` / `achievement.<id>.title|desc`
   keys this pack already ships in `Server/Languages/en-US/mmoskilltree.lang`

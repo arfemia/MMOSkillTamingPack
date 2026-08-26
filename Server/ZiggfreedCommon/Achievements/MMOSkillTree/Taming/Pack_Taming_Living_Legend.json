@@ -31,20 +31,22 @@
       }
     ]
   },
-  "Criteria": [
-    {
+  "Criteria": {
+    "breed-animal": {
       "Kind": "BREED_ANIMAL",
       "Amount": 25000
     }
-  ],
-  "ClaimRewards": [
-    {
-      "Kind": "Mmo_Boost_Token",
-      "Params": {
-        "Skill": "TAMING",
-        "Multiplier": "3.0",
-        "DurationMinutes": "180"
+  },
+  "Rewards": {
+    "Claim": [
+      {
+        "Kind": "Mmo_Boost_Token",
+        "Params": {
+          "Skill": "TAMING",
+          "Multiplier": "3.0",
+          "DurationMinutes": "180"
+        }
       }
-    }
-  ]
+    ]
+  }
 }

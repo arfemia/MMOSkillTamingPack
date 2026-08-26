@@ -29,10 +29,10 @@
       }
     ]
   },
-  "Criteria": [
-    {
+  "Criteria": {
+    "feed-animal": {
       "Kind": "FEED_ANIMAL",
       "Amount": 1000
     }
-  ]
+  }
 }
