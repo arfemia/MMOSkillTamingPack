@@ -2,7 +2,8 @@
 
 A **standalone Hytale content pack** that ships the Taming skill's content for
 the [MMOSkillTree mod](https://www.curseforge.com/hytale/mods/mmo-skill-tree): quests,
-achievements, per-level boost rewards, and the Taming XP map.
+achievements, per-level boost rewards, the Taming XP token and boost-token items, and
+the Taming XP map.
 
 ## How the Taming skill activates
 
@@ -14,7 +15,10 @@ API; the adapter listens to Tamework's companion events. When that integration i
 absent the skill is hidden everywhere and earns no XP, and every entry in this pack
 is also gated on the `mmoskilltree:feature` factor (`Param: "taming"`) so it stays
 hidden too. Nothing here
-defines the skill itself; a content pack cannot ship a skill (skills are code-backed).
+defines the skill itself: TAMING is a BUILT-IN skill declared in the jar's `SkillRegistry`,
+and its XP arrives through the Java `AlecsTameworkAdapter`, so no pack can supply it.
+(A pack CAN ship a wholly new CUSTOM skill as a `Server/MMOSkillTree/CustomSkills/<Id>.json`
+asset, but that route cannot replace a built-in skill or stand in for a Java integration.)
 This pack only ships content that references the skill.
 
 ## XP source mapping
@@ -24,14 +28,14 @@ xp-map keyed by `CompanionXpSource` enum name. This pack's
 `XpMaps/MMOSkillTamingPack.json` is the tunable override of the in-jar defaults
 (`TamingDefaults`):
 
-| Source                | Default | Notes |
-|-----------------------|---------|-------|
-| `FEED`                | 1       | feeding + drinking (hunger/thirst) - tiny passive trickle |
-| `HARVEST`             | 5       | harvesting companion drops - medium |
-| `BREEDING`            | 25      | breeding - largest award |
-| `COMBAT_DAMAGE_DEALT` | 1       | small; combat is the most abusable source |
-| `COMBAT_DAMAGE_TAKEN` | 0       | disabled (author guidance) |
-| `CUSTOM`              | 0       | no XP for custom sources |
+| Source                | Jar default | This pack | Notes |
+|-----------------------|-------------|-----------|-------|
+| `FEED`                | 1           | 1         | feeding + drinking (hunger/thirst) - tiny passive trickle |
+| `HARVEST`             | 5           | 5         | harvesting companion drops - medium |
+| `BREEDING`            | 25          | 250       | breeding - largest award |
+| `COMBAT_DAMAGE_DEALT` | 1           | 1         | small; combat is the most abusable source |
+| `COMBAT_DAMAGE_TAKEN` | -1          | 0         | disabled (author guidance) |
+| `CUSTOM`              | 0           | 0         | no XP for custom sources |
 
 `0` or `-1` for a source means no XP. Server owners retune by editing the
 `TAMING` block in `mods/mmoskilltree/xp-maps.json`, which wins over this pack.
@@ -42,6 +46,10 @@ xp-map keyed by `CompanionXpSource` enum name. This pack's
 taming-pack/
 ├── manifest.json
 ├── build.ps1                                    forward-slash zip + deploy
+├── Server/Item/Items/Consumables/XpTokens/      8 Taming XP tokens + 5 personal boost tokens
+│                                                (the jar ships no Taming token art; each fires mmo_xp_token_consume)
+├── Server/Languages/<locale>/items.lang         token names + descriptions, 9 locales
+├── Server/Languages/<locale>/mmoskilltree.lang  quest + achievement display text, 9 locales
 ├── Server/MMOSkillTree/
 │   ├── Control/MMOSkillTamingPack.json          add mode for XpMaps/CommandRewards
 │   ├── XpMaps/MMOSkillTamingPack.json           TAMING source -> XP overrides
@@ -116,7 +124,7 @@ Per-version public release notes live in `patch-notes/<version>.md`, same paradi
 
 ## Verification
 
-1. Build + deploy this pack and the MMOSkillTree jar, plus Alec's Animal Husbandry (and its Alec's Tamework API dependency).
+1. Build + deploy this pack, the ZiggfreedCommon jar (loaded before the MMO jar; the `Server/ZiggfreedCommon/` quests and achievements are decoded by its codecs) and the MMOSkillTree jar, plus Alec's Animal Husbandry (and its Alec's Tamework API dependency). `manifest.json`'s `Dependencies` block carries the exact floors.
 2. Start the server; in the log confirm `[Integrations] Taming: activated ...`,
    the `pack layer applied` lines for Xp-maps / CommandRewards, and the six quests
    plus nineteen achievements loading from the native ZiggfreedCommon asset stores.
