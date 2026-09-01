@@ -66,7 +66,10 @@ taming-pack/
   raw-Payload template DSL. The **filename is the id** (lower-cased); `MMOSkillTree`
   and `Taming` are plain organizational folders that do not affect the id, so
   renaming either folder is free but renaming a *file* renames the id (and starts
-  any in-progress player over on that quest/achievement).
+  any in-progress player over on that quest/achievement). The one exception is a
+  folder whose name starts with `_`, which for quests and achievements folds its
+  name into the id (`Zones/_Wilds/Trork_Trouble.json` is `wilds_trork_trouble`);
+  this pack marks none, so every id here is its bare filename.
 - Every entry gates on the `taming` feature via `Requires.Factors`:
   `{"Factor": "mmoskilltree:feature", "Param": "taming", "Min": 1}`, the native
   replacement for the old `requiresFeatures` list.
