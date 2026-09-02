@@ -15,14 +15,14 @@ This pack pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skil
 ## What you get
 
 - **Taming XP from your companions.** Feeding and watering your animals is a small steady trickle, harvesting their drops is worth more, and breeding gives the biggest reward. Combat experience is kept low to discourage grinding, and experience from damage your companions take is off by default.
-- **Progression quests** - First Bond, Companion Keeper, and Beastmaster - each handing out a Taming experience boost.
-- **Repeatable daily and weekly quests** - daily breeding and companion-care goals plus a weekly husbandry goal, all granting flat Taming XP.
+- Progression quests (First Bond, Companion Keeper, and Beastmaster), each handing out a Taming experience boost.
+- Repeatable daily breeding and companion-care goals, plus a weekly husbandry goal, all paying flat Taming XP.
 - **Achievements for every companion activity** - a four-tier Tamer level chain to Grandmaster at level 100, a five-tier breeding chain (to 25,000 bred) plus a lifetime Taming XP milestone, and chains for feeding, harvesting, and companion combat.
-- **Automatic boost rewards** at Taming levels 15, 50, and 100, including a powerful all-skill boost at the cap.
+- Automatic boost rewards at Taming levels 15, 50, and 100, including a powerful all-skill boost at the cap.
 
 ## Requirements
 
-- [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) (1.6.0 or newer)
+- [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) (1.6.0 or newer), with the Ziggfreed's CommonLib library it already requires
 - [Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry) (the companion mod; it runs on the Alec's Tamework API)
 
 ## Install
