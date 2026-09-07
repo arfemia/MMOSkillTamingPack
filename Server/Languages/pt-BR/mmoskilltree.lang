@@ -1,6 +1,6 @@
 # MMOSkillTamingPack - Português (pt-BR) textos de exibição para o mod MMO Skill Tree.
-# Chaves de convenção: quest.<id>.title|flavor e achievement.<id>.title|desc resolvem através
-# dos seios QuestTitleUtil / AchievementTextUtil do mod (o displayName/description bruto foram
+# Chaves de convenção: quest.<id>.title|flavor e achievement.<id>.title|desc são de onde vêm
+# o título e a descrição (o displayName/description bruto foram
 # removidos do JSON em 1.4.0). Os valores são apenas sabor sem dados: sem dígitos, sem reafirmar
 # quantidades de objetivo/recompensa (a interface renderiza esses automaticamente). As traduções vivem nos
 # arquivos Languages/<locale>/mmoskilltree.lang irmãos.

@@ -1,6 +1,6 @@
 # MMOSkillTamingPack - Texto de pantalla en español (es-ES) para el mod MMO Skill Tree.
-# Convención de claves: quest.<id>.title|flavor y achievement.<id>.title|desc se resuelven a través de
-# los accesos QuestTitleUtil / AchievementTextUtil del mod (el rawDisplayName/description fue
+# Convención de claves: quest.<id>.title|flavor y achievement.<id>.title|desc son de donde salen
+# el título y la descripción (el displayName/description sin procesar fue
 # eliminado del JSON en 1.4.0). Los valores son solo ambientación sin datos: sin dígitos, sin reafirmar
 # cantidades de objetivo/recompensa (la interfaz las renderiza automáticamente). Las traducciones viven en los
 # archivos Languages/<locale>/mmoskilltree.lang hermanos.

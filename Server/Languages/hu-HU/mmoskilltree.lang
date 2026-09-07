@@ -1,6 +1,6 @@
 # MMOSkillTamingPack - Magyar (hu-HU) megjelenített szöveg az MMO Skill Tree modhoz.
-# Konvenció kulcsok: quest.<id>.title|flavor és achievement.<id>.title|desc feloldása a mod
-# QuestTitleUtil / AchievementTextUtil seamjén keresztül (a nyers displayName/description eltávolítva
+# Konvenció kulcsok: quest.<id>.title|flavor és achievement.<id>.title|desc adja a címet
+# és a leírást (a nyers displayName/description eltávolítva
 # 1.4.0-ban). Az értékek adatmentes ízelítő csak: nincsenek számjegyek, nincsenek célorelvételt/jutalom
 # mennyiségek (a felhasználó felület ezeket automatikusan megjeleníti). A fordítások a testvér
 # Languages/<locale>/mmoskilltree.lang fájlokban élnek.
