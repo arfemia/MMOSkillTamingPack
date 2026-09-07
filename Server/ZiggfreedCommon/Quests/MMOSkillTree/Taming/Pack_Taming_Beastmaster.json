@@ -8,6 +8,7 @@
     "FlavorKey": "quest.pack_taming_beastmaster.flavor"
   },
   "Listing": {
+    "Icon": "Deco_Trophy_Harvest",
     "Category": "main",
     "SortOrder": 30,
     "Tags": [

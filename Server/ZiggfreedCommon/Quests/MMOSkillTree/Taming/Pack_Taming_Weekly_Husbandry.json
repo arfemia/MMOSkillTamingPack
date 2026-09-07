@@ -7,6 +7,7 @@
     "TitleKey": "quest.pack_taming_weekly_husbandry.title"
   },
   "Listing": {
+    "Icon": "Ingredient_Hide_Light",
     "Category": "main",
     "SortOrder": 50,
     "Tags": [

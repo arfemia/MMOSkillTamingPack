@@ -9,6 +9,7 @@
     "FlavorKey": "quest.pack_taming_first_bond.flavor"
   },
   "Listing": {
+    "Icon": "Farming_Collar",
     "Category": "main",
     "SortOrder": 10,
     "Tags": [
