@@ -22,7 +22,7 @@ This pack pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skil
 
 ## Requirements
 
-- [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) (1.6.0 or newer), with the Ziggfreed's CommonLib library it already requires
+- [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) (1.6.1 or newer) and [Ziggfreed's CommonLib](https://www.curseforge.com/hytale/mods/ziggfreeds-commonlib) (2.1.0 or newer), the library it already requires
 - [Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry) (the companion mod; it runs on the Alec's Tamework API)
 
 ## Install

@@ -5,8 +5,8 @@ quests, achievements, and level rewards.
 
 ## Requirements
 
-- MMO Skill Tree (the main mod). Version 1.1.7 or newer for the breeding quests
-  and achievements (that release added breeding tracking).
+- MMO Skill Tree (the main mod), 1.6.1 or newer, with Ziggfreed's CommonLib 2.1.0
+  or newer, the library it already requires.
 - Alec's Animal Husbandry (the companion mod). It runs on the Alec's Tamework
   API, which is what the Taming skill reads, so the Taming skill turns on
   automatically when Animal Husbandry is installed and stays hidden otherwise.
