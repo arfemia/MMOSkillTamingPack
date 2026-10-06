@@ -4,7 +4,7 @@ Add a **Taming** skill to MMO Skill Tree that levels up as you care for your tam
 
 This pack pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) with **[Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry)**, the companion mod (built on the Alec's Tamework API that the Taming skill reads). Install them and the Taming skill switches on automatically. Without Animal Husbandry, the skill and all of this pack's content stay hidden, so it is safe to keep installed either way.
 
-[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/5NFdZsUxHZ) [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/ziggfreed) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/wintergreensolutions) [![Documentation](https://img.shields.io/badge/Docs-Read%20More-0ea5e9?style=for-the-badge)](https://mmo-skill-tree-docs.ziggfreed.com)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/5NFdZsUxHZ) [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/ziggfreed) [![Documentation](https://img.shields.io/badge/Docs-Read%20More-0ea5e9?style=for-the-badge)](https://mmo-skill-tree-docs.ziggfreed.com)
 
 ---
 
@@ -46,6 +46,6 @@ Drop the pack into your server's mods folder next to MMO Skill Tree and Alec's A
 
 Questions or suggestions? Join the [Discord](https://discord.gg/5NFdZsUxHZ) or leave a comment!
 
-**Support Development:** [Ko-fi](https://ko-fi.com/ziggfreed) | [Buy Me a Coffee](https://buymeacoffee.com/wintergreensolutions)
+**Support Development:** [Ko-fi](https://ko-fi.com/ziggfreed)
 
 _MMO Skill Tree is not affiliated with Hypixel Studios or Hytale._
