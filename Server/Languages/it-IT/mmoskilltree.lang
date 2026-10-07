@@ -43,3 +43,6 @@ achievement.pack_taming_bloodline.title = Linea di Sangue
 achievement.pack_taming_grandmaster.desc = L'apice del legame tra domatore e bestia.
 achievement.pack_taming_living_legend.desc = Una dinastia senza uguali.
 achievement.pack_taming_bloodline.desc = Guadagnato attraverso alimentazione, raccolta, allevamento e combattimento con compagni.
+
+# ---- Achievement subcategory names ----
+achievement.category.misc.taming = Taming

@@ -43,3 +43,6 @@ achievement.pack_taming_bloodline.title = Linhagem
 achievement.pack_taming_grandmaster.desc = O pico do vínculo entre domador e besta.
 achievement.pack_taming_living_legend.desc = Uma dinastia sem igual.
 achievement.pack_taming_bloodline.desc = Ganha através de alimentação, colheita, criação e combate de companheiro.
+
+# ---- Nomes das subcategorias de conquistas ----
+achievement.category.misc.taming = Domar

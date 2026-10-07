@@ -43,3 +43,6 @@ achievement.pack_taming_bloodline.title = Blutlinie
 achievement.pack_taming_grandmaster.desc = Der Höhepunkt der Bindung zwischen Zähmer und Bestie.
 achievement.pack_taming_living_legend.desc = Eine Dynastie ohne Gleichen.
 achievement.pack_taming_bloodline.desc = Verdient durch Füttern, Ernten, Züchten und Gefährten-Kampf.
+
+# ---- Achievement subcategory names ----
+achievement.category.misc.taming = Zähmen

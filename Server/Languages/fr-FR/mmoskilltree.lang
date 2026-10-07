@@ -43,3 +43,6 @@ achievement.pack_taming_bloodline.title = Lignée
 achievement.pack_taming_grandmaster.desc = L'apogée du lien entre le dresseur et la bête.
 achievement.pack_taming_living_legend.desc = Une dynastie sans égale.
 achievement.pack_taming_bloodline.desc = Obtenu par l'alimentation, la récolte, l'élevage et les combats des compagnons.
+
+# ---- Achievement subcategory names ----
+achievement.category.misc.taming = Dressage

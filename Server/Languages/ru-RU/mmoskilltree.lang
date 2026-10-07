@@ -43,3 +43,6 @@ achievement.pack_taming_bloodline.title = Кровная линия
 achievement.pack_taming_grandmaster.desc = Вершина связи между укротителем и зверем.
 achievement.pack_taming_living_legend.desc = Династия без равных.
 achievement.pack_taming_bloodline.desc = Получена через кормление, сбор урожая, разведение и боевые действия спутников.
+
+# ---- Achievement subcategory names ----
+achievement.category.misc.taming = Приручение

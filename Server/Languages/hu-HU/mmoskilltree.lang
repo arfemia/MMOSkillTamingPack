@@ -43,3 +43,6 @@ achievement.pack_taming_bloodline.title = Vérág
 achievement.pack_taming_grandmaster.desc = A szelídítő és a vadállat közti kötelék csúcspontja.
 achievement.pack_taming_living_legend.desc = Egy válogatlan dinasztia.
 achievement.pack_taming_bloodline.desc = Etetéssel, betakarítással, tenyésztéssel és társulat harcban szerzett.
+
+# ---- Teljesítmény-alkategóriák nevei ----
+achievement.category.misc.taming = Szelídítés

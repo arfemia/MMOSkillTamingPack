@@ -43,3 +43,6 @@ achievement.pack_taming_bloodline.title = Soy Ağacı
 achievement.pack_taming_grandmaster.desc = Hayvancı ve hayvan arasındaki bağın zirvesi.
 achievement.pack_taming_living_legend.desc = Eşsiz bir saltanat.
 achievement.pack_taming_bloodline.desc = Beslenme, hasat, üretim ve hayvan savaşı yoluyla kazanıldı.
+
+# ---- Achievement subcategory names ----
+achievement.category.misc.taming = Evcilleştirme

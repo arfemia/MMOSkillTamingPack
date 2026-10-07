@@ -43,3 +43,6 @@ achievement.pack_taming_bloodline.title = Linaje
 achievement.pack_taming_grandmaster.desc = La cúspide del vínculo entre domador y bestia.
 achievement.pack_taming_living_legend.desc = Una dinastía sin igual.
 achievement.pack_taming_bloodline.desc = Ganado a través de alimentación, cosecha, cría y combate de compañeros.
+
+# ---- Nombres de las subcategorías de logros ----
+achievement.category.misc.taming = Doma
