@@ -43,3 +43,6 @@ achievement.pack_taming_bloodline.title = Bloodline
 achievement.pack_taming_grandmaster.desc = The peak of the bond between tamer and beast.
 achievement.pack_taming_living_legend.desc = A dynasty without equal.
 achievement.pack_taming_bloodline.desc = Earned through feeding, harvesting, breeding, and companion combat.
+
+# ---- Achievement subcategory names ----
+achievement.category.misc.taming = Taming
