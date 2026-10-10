@@ -5,7 +5,8 @@ quests, achievements, and level rewards.
 
 ## Requirements
 
-- MMO Skill Tree (the main mod), 1.6.1 or newer, with Ziggfreed's CommonLib 2.1.0
+- A Hytale Update 7 server.
+- MMO Skill Tree (the main mod), 1.7.1 or newer, with Ziggfreed's CommonLib 2.3.0
   or newer, the library it already requires.
 - Alec's Animal Husbandry (the companion mod). It runs on the Alec's Tamework
   API, which is what the Taming skill reads, so the Taming skill turns on
@@ -13,7 +14,7 @@ quests, achievements, and level rewards.
 
 ## Install
 
-1. Drop `MMOSkillTamingPack-1.0.0.zip` into your server's `UserData/Mods` folder
+1. Drop `MMOSkillTamingPack-1.2.2.zip` into your server's `UserData/Mods` folder
    (alongside the MMO Skill Tree jar and Alec's Animal Husbandry).
 2. Restart the server.
 

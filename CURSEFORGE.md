@@ -22,7 +22,7 @@ This pack pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skil
 
 ## Requirements
 
-- [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) (1.6.1 or newer) and [Ziggfreed's CommonLib](https://www.curseforge.com/hytale/mods/ziggfreeds-commonlib) (2.1.0 or newer), the library it already requires
+- A Hytale Update 7 server, [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) (1.7.1 or newer) and [Ziggfreed's CommonLib](https://www.curseforge.com/hytale/mods/ziggfreeds-commonlib) (2.3.0 or newer), the library it already requires
 - [Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry) (the companion mod; it runs on the Alec's Tamework API)
 
 ## Install
@@ -33,6 +33,7 @@ Drop the pack into your server's mods folder next to MMO Skill Tree and Alec's A
 
 | Pack  | Plugin | Notes |
 | ----- | ------ | ----- |
+| 1.2.2 (unreleased, held) | 1.7.1+ | Moves the pack onto Hytale Update 7: it needs an Update 7 server and Ziggfreed's CommonLib 2.3.0 or newer, and won't load on Update 6. The Taming heading in the achievement book reads in your language, where it showed the English word in every language. |
 | 1.2.1 | 1.6.1+ | Every quest carries a picture (a collar, a plush, the harvest trophy, seed, meat, hide), drawn beside it wherever it is listed and on the notice when it finishes, and the repeating quests are badged Daily or Weekly off their own timing rather than hand-labelled. Requires Ziggfreed's CommonLib 2.1.0 or newer. |
 | 1.2.0 | 1.6.0+ | Internal rewrite: quests and achievements move onto the shared quest/achievement engine. No player-facing change. |
 | 1.1.0 | 1.3.0+ | Fixes the automatic boost rewards at Taming levels 15, 50, and 100 never actually granting (the reward command's arguments never bound, so it silently did nothing). Reward lines drop their baked English names; the plugin renders each line localized in the player's language. Quests and achievements drop their baked English titles and descriptions and ship translation keys for all nine languages. |
