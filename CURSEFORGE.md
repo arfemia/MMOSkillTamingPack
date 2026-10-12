@@ -29,16 +29,6 @@ This pack pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skil
 
 Drop the pack into your server's mods folder next to MMO Skill Tree and Alec's Animal Husbandry, then restart. Server owners can fine-tune every Taming XP value in `mods/mmoskilltree/xp-maps.json`.
 
-## Versions
-
-| Pack  | Plugin | Notes |
-| ----- | ------ | ----- |
-| 1.2.2 (unreleased, held) | 1.7.1+ | Moves the pack onto Hytale Update 7: it needs an Update 7 server and Ziggfreed's CommonLib 2.3.0 or newer, and won't load on Update 6. The Taming heading in the achievement book reads in your language, where it showed the English word in every language. |
-| 1.2.1 | 1.6.1+ | Every quest carries a picture (a collar, a plush, the harvest trophy, seed, meat, hide), drawn beside it wherever it is listed and on the notice when it finishes, and the repeating quests are badged Daily or Weekly off their own timing rather than hand-labelled. Requires Ziggfreed's CommonLib 2.1.0 or newer. |
-| 1.2.0 | 1.6.0+ | Internal rewrite: quests and achievements move onto the shared quest/achievement engine. No player-facing change. |
-| 1.1.0 | 1.3.0+ | Fixes the automatic boost rewards at Taming levels 15, 50, and 100 never actually granting (the reward command's arguments never bound, so it silently did nothing). Reward lines drop their baked English names; the plugin renders each line localized in the player's language. Quests and achievements drop their baked English titles and descriptions and ship translation keys for all nine languages. |
-| 1.0.0 | 1.2.0+ | First release. Taming XP map, progression + repeatable daily/weekly quests, achievement chains for every companion activity, and per-level boost rewards. |
-
 ---
 
 ## Links & Support
@@ -46,6 +36,8 @@ Drop the pack into your server's mods folder next to MMO Skill Tree and Alec's A
 [![MMO Skill Tree](https://img.shields.io/badge/CurseForge-MMO%20Skill%20Tree-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/hytale/mods/mmo-skill-tree) [![Get Pro Edition](https://img.shields.io/badge/Get%20Pro%20Edition-F59E0B?style=for-the-badge)](https://mmo-skill-tree-docs.ziggfreed.com/commercial)
 
 Questions or suggestions? Join the [Discord](https://discord.gg/5NFdZsUxHZ) or leave a comment!
+
+Patch notes for every version are on [GitHub](https://github.com/arfemia/MMOSkillTamingPack/tree/main/patch-notes).
 
 **Support Development:** [Ko-fi](https://ko-fi.com/ziggfreed)
 
