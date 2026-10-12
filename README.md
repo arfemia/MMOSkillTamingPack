@@ -14,7 +14,7 @@ quests, achievements, and level rewards.
 
 ## Install
 
-1. Drop `MMOSkillTamingPack-1.2.2.zip` into your server's `UserData/Mods` folder
+1. Drop `MMOSkillTamingPack-1.2.2.zip` into your server's `Mods/` folder
    (alongside the MMO Skill Tree jar and Alec's Animal Husbandry).
 2. Restart the server.
 
