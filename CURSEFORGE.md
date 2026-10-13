@@ -1,8 +1,8 @@
 # MMO Skill Tree - Taming Pack
 
-Add a **Taming** skill to MMO Skill Tree that levels up as you care for your tamed companions.
+Adds a **Taming** skill to MMO Skill Tree that levels up as you feed and breed your animals.
 
-This pack pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) with **[Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry)**, the companion mod (built on the Alec's Tamework API that the Taming skill reads). Install them and the Taming skill switches on automatically. Without Animal Husbandry, the skill and all of this pack's content stay hidden, so it is safe to keep installed either way.
+It pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) with [Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry). Install both and Taming switches on by itself. Without Animal Husbandry the skill and everything in this pack stay hidden, so it is safe to keep installed either way.
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/5NFdZsUxHZ) [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/ziggfreed) [![Documentation](https://img.shields.io/badge/Docs-Read%20More-0ea5e9?style=for-the-badge)](https://mmo-skill-tree-docs.ziggfreed.com)
 
@@ -14,20 +14,20 @@ This pack pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skil
 
 ## What you get
 
-- **Taming XP from your companions.** Feeding and watering your animals is a small steady trickle, harvesting their drops is worth more, and breeding gives the biggest reward. Combat experience is kept low to discourage grinding, and experience from damage your companions take is off by default.
-- Progression quests (First Bond, Companion Keeper, and Beastmaster), each handing out a Taming experience boost.
-- Repeatable daily breeding and companion-care goals, plus a weekly husbandry goal, all paying flat Taming XP.
-- **Achievements for every companion activity** - a four-tier Tamer level chain to Grandmaster at level 100, a five-tier breeding chain (to 25,000 bred) plus a lifetime Taming XP milestone, and chains for feeding, harvesting, and companion combat.
-- Automatic boost rewards at Taming levels 15, 50, and 100, including a powerful all-skill boost at the cap.
+- Taming XP from your animals. Feeding pays a little, harvesting what they give pays more, and breeding pays the most. Fighting beside them pays a little.
+- Three quests for reaching Taming 5, 25 and 60: First Bond, Companion Keeper and Beastmaster, each paying Taming XP.
+- Two daily quests, one for breeding and one for feeding and harvesting, and a weekly one, Master of Husbandry.
+- 19 achievements for leveling, breeding, feeding, harvesting and fighting beside your animals, up to Grandmaster Tamer at Taming 100 and Living Legend at 25,000 animals bred.
+- An XP boost at Taming 15, 50 and 100. The one at 100 boosts every skill.
 
 ## Requirements
 
-- A Hytale Update 7 server, [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) (1.7.1 or newer) and [Ziggfreed's CommonLib](https://www.curseforge.com/hytale/mods/ziggfreeds-commonlib) (2.3.0 or newer), the library it already requires
-- [Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry) (the companion mod; it runs on the Alec's Tamework API)
+- A Hytale Update 7 server, [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) (1.7.1 or newer) and [Ziggfreed's CommonLib](https://www.curseforge.com/hytale/mods/ziggfreeds-commonlib) (2.3.0 or newer)
+- [Alec's Animal Husbandry](https://www.curseforge.com/hytale/mods/alecs-animal-husbandry)
 
 ## Install
 
-Drop the pack into your server's mods folder next to MMO Skill Tree and Alec's Animal Husbandry, then restart. Server owners can fine-tune every Taming XP value in `mods/mmoskilltree/xp-maps.json`.
+Drop the pack into your server's `Mods/` folder next to MMO Skill Tree and Alec's Animal Husbandry, then restart. Server owners can change any Taming XP value in `mods/mmoskilltree/xp-maps.json`.
 
 ---
 
