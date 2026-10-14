@@ -42,7 +42,8 @@ The script is self-contained and cross-platform (`pwsh ./build.ps1` works on mac
   Grandmaster at Taming 100), a five-tier breeding chain (to 25,000 bred) plus a
   1,000,000 lifetime-XP "Bloodline" milestone, and three-tier chains for feeding
   (Caretaker), harvesting (Forager), and companion combat (War Beasts).
-- Automatic XP-boost rewards at Taming levels 15, 50, and 100.
+- XP-boost rewards at Taming levels 15, 50, and 100, waiting on the Taming skill's
+  Rewards page for you to collect.
 
 ## Tuning
 

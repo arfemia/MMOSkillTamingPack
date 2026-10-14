@@ -5,22 +5,25 @@
       "15": [
         {
           "command": "/mmoboost give --args={player}|TAMING|1.5|30",
+          "localizationKey": "reward.pack_taming_boost.title",
           "color": "#7ec8e3",
-          "autoClaim": true
+          "autoClaim": false
         }
       ],
       "50": [
         {
           "command": "/mmoboost give --args={player}|TAMING|2|45",
+          "localizationKey": "reward.pack_taming_boost.title",
           "color": "#7ec8e3",
-          "autoClaim": true
+          "autoClaim": false
         }
       ],
       "100": [
         {
           "command": "/mmoboost give --args={player}|all|2|60",
+          "localizationKey": "reward.pack_taming_boost_all.title",
           "color": "#ffd700",
-          "autoClaim": true
+          "autoClaim": false
         }
       ]
     }
