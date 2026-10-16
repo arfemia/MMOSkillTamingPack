@@ -18,7 +18,7 @@ It pairs [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree)
 - Three quests for reaching Taming 5, 25 and 60: First Bond, Companion Keeper and Beastmaster, each paying Taming XP.
 - Two daily quests, one for breeding and one for feeding and harvesting, and a weekly one, Master of Husbandry.
 - 19 achievements for leveling, breeding, feeding, harvesting and fighting beside your animals, up to Grandmaster Tamer at Taming 100 and Living Legend at 25,000 animals bred.
-- An XP boost at Taming 15, 50 and 100. The one at 100 boosts every skill.
+- An XP boost at Taming 15, 50 and 100, waiting on the skill's Rewards page for you to collect. The one at 100 boosts every skill.
 
 ## Requirements
 
