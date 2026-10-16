@@ -46,3 +46,7 @@ achievement.pack_taming_bloodline.desc = Ganado a través de alimentación, cose
 
 # ---- Nombres de las subcategorías de logros ----
 achievement.category.misc.taming = Doma
+
+# ---- Recompensas de nivel de Doma (CommandRewards/MMOSkillTamingPack.json) ----
+reward.pack_taming_boost.title = Bono de XP de Doma
+reward.pack_taming_boost_all.title = Bono de XP para Todas las Habilidades

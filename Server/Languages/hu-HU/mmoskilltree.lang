@@ -46,3 +46,7 @@ achievement.pack_taming_bloodline.desc = Etetéssel, betakarítással, tenyészt
 
 # ---- Teljesítmény-alkategóriák nevei ----
 achievement.category.misc.taming = Szelídítés
+
+# ---- Taming level rewards (CommandRewards/MMOSkillTamingPack.json) ----
+reward.pack_taming_boost.title = Szelídítés XP Boost
+reward.pack_taming_boost_all.title = XP Boost minden képességhez

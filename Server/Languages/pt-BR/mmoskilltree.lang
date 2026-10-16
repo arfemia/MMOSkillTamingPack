@@ -46,3 +46,7 @@ achievement.pack_taming_bloodline.desc = Ganha através de alimentação, colhei
 
 # ---- Nomes das subcategorias de conquistas ----
 achievement.category.misc.taming = Domar
+
+# ---- Taming level rewards (CommandRewards/MMOSkillTamingPack.json) ----
+reward.pack_taming_boost.title = Bônus de XP de Domar
+reward.pack_taming_boost_all.title = Bônus de XP para Todas as Habilidades

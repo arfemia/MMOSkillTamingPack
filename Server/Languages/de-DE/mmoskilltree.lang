@@ -46,3 +46,7 @@ achievement.pack_taming_bloodline.desc = Verdient durch Füttern, Ernten, Zücht
 
 # ---- Achievement subcategory names ----
 achievement.category.misc.taming = Zähmen
+
+# ---- Taming level rewards (CommandRewards/MMOSkillTamingPack.json) ----
+reward.pack_taming_boost.title = Zähmen-XP-Boost
+reward.pack_taming_boost_all.title = XP-Boost für jede Fähigkeit

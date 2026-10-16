@@ -46,3 +46,7 @@ achievement.pack_taming_bloodline.desc = Получена через кормл�
 
 # ---- Achievement subcategory names ----
 achievement.category.misc.taming = Приручение
+
+# ---- Taming level rewards (CommandRewards/MMOSkillTamingPack.json) ----
+reward.pack_taming_boost.title = Буст опыта Приручения
+reward.pack_taming_boost_all.title = Буст опыта для каждого навыка
